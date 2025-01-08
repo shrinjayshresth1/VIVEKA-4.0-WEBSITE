@@ -36,3 +36,21 @@ body {
 a {
   all: unset;
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #081b3f;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: 3px solid #081b3f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #357ab8;
+}

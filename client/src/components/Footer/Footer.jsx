@@ -93,7 +93,7 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p>Shri Ramswaroop engineering college, Lucknow-Barabanki Road </p>
+              <p>Shri Ramswaroop Memorial University, Lucknow-Deva Road </p>
             </div>
           </div>
           <div className={classes.footer_contact}>

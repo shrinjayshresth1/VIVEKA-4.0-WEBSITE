@@ -1,9 +1,9 @@
 import bgmi from "./Events/bgmi.png";
 import FindTheLanguage from "./Events/find the language.png";
 
-import RoboRace from "./Events/robo race.png";
+import RoboRace from "./Events/robo DAUD.png";
 
-import RoboSoccer from "./Events/robo soccer.png";
+import RoboSoccer from "./Events/robo FOOTBALL.png";
 import RoboWar from "./Events/robo war.png"
 import DroneRace from "./Events/drone race.png"
 import Structomania from "./Events/structromania.png"
@@ -11,12 +11,16 @@ import PuzzleMania from "./Events/puzzle mania.png"
 import Hackathon from "./Events/hack-a-thon.png"
 import DigiArt from "./Events/digi art.png"
 import LaserLightShow from "./Events/laser light show.png"
-
+import RubicsCube from "./Events/rubics cube.png"
+import BuddhiShamta from "./Events/Buddhi SHAMTA.png"
+import BoatRace from "./Events/boat race.png"
+import RecallOTune from "./Events/recall-o-tune.png"
+import ReasoningRumble from "./Events/reasoning rumble.png"
 
 import freefire from "./Events/freefire.png";
 // import KeynoteSession from "./Events/KeynoteSession.png";
 
-import Meshmerize from "./Events/mesmerize.png";
+import PathFinder from "./Events/path fnder-robot.png";
 // import web3 from "./Events/Web3.png";
 
 // import Hackathon from "./Events/hack-a-thon.png";
@@ -53,7 +57,7 @@ export const eventsData = [
     note: [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
     ],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSflBya7_eDYE43kIwv6acx5TpqyqXkrQMgmOtLM5oYAnfJAzA/viewform?usp=sf_link",
+    link: "",
   },
   {
     id: 2,
@@ -80,7 +84,7 @@ export const eventsData = [
     note: [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
     ],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSehzAtg5Sy5C4B5WkVTeD5SGxLrq0fSKzqdSKLh2UvJQkRVnA/viewform",
+    link: "",
   },
   {
     id: 3,
@@ -108,7 +112,7 @@ export const eventsData = [
     note: [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
     ],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSfW29NpK5FGba-846Sr2WpwXRkc5Aef3cX_60c-eCxobjH2Zg/viewform?usp=sf_link",
+    link: "",
   },
   {
     id: 4,
@@ -141,7 +145,7 @@ export const eventsData = [
     note: [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
     ],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSc3xZCzF8NQI0FVZExRSFJEVEuvDRDdV74qNu5tvhNrE4G6cw/viewform",
+    link: "",
     onSpot: "",
   },
   {
@@ -174,7 +178,7 @@ export const eventsData = [
     note: [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
     ],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSc3xZCzF8NQI0FVZExRSFJEVEuvDRDdV74qNu5tvhNrE4G6cw/viewform",
+    link: "",
     onSpot: "",
   },
   {
@@ -211,7 +215,7 @@ export const eventsData = [
     note: [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
     ],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLScfe2rSolO-FC-q7puLr2ca9UL3o0xDW4UJViqqX5tmDwbrBQ/viewform",
+    link: "",
   },
   {
     id: 7,
@@ -251,12 +255,12 @@ export const eventsData = [
     note: [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
     ],
-    link: "https://tinyurl.com/mudermystery",
+    link: "",
   },
   {
  
     id: 8,
-    image: Meshmerize,
+    image: PathFinder,
     name: "Path Finder : Robot",
     description:
       "Dive into the world of robotics with Mesmerize, an exhilarating competition where innovation meets precision! In this event, teams will design and build an autonomous bot capable of navigating a maze by following white lines, analyzing paths, and reaching the endpoint in record time.",
@@ -278,7 +282,7 @@ export const eventsData = [
     location: "To Be Announced",
     date: "6th February , 2025",
     note: ["Hardcopy certificates will be awarded only to the winners. All otherparticipants will receive softcopy certificates."],
-    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
+    link: "",
   },
   {
     id: 9,
@@ -307,7 +311,7 @@ export const eventsData = [
     location: "To be announced",
     date: "7th February , 2025",
     note: ["Hardcopy certificates will be awarded only to the winners. All otherparticipants will receive softcopy certificates."],
-    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
+    link: "",
   },
   {
     id: 10,
@@ -333,7 +337,7 @@ export const eventsData = [
     note: [
       "Hardcopy certificates will be awarded only to the winners. All otherparticipants will receive softcopy certificates",
     ],
-    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
+    link: "",
   },
   {
     id: 11,
@@ -364,11 +368,11 @@ export const eventsData = [
     note: [
      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates",
     ],
-    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
+    link: "",
   },
   {
     id: 12,
-    image: PuzzleMania,
+    image: RecallOTune,
     name: "Recall-O-Tune",
     description:
       "Challenge your memory and reasoning skills in this exciting event filled with funand intellectual puzzles! Participants will identify logos (University, company, or government organization) and solve puzzles digitally in the shortest possibletime.",
@@ -392,7 +396,7 @@ export const eventsData = [
     note: [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates",
     ],
-    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
+    link: "",
   },
   {
     id: 13,
@@ -422,7 +426,7 @@ export const eventsData = [
     location: "To Be Announced",
     date: "8th February , 2025",
     note: ["Hardcopy certificates will be awarded only to the winners. Allother participants will receive softcopy certificates."],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSeXHY3fe3259AmtmItE5u86mwj17aDg3H6KpPwq4yGa54AkUQ/viewform",
+    link: "",
   },
   {
     id: 14,
@@ -442,11 +446,11 @@ export const eventsData = [
       "The organizers reserve the rights to change the above format, if necessary.",
       "Teams can also register at the venue on the day of the event at least an hour prior to the event.",
     ],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSd2Uc8Kyn0T-4F7McrCBRt40FSgMnyJEZc2L0YzJpZYgn16dg/viewform",
+    link: "",
   },
   {
     id: 15,
-    image: DroneRace,
+    image: RubicsCube,
     name: "Rubics Cube",
     description: "Cubing Clash is a thrilling event for puzzle enthusiasts, problem  solvers, and speed cubers of all skill levels. Highlights include a speed cubing competition, creative challenges, and learning sessions with expert cubers.",
     rules: [
@@ -463,12 +467,12 @@ export const eventsData = [
     location: "To be announced",
     date: "6th february , 2025",
     note: ["NA"],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSd2Uc8Kyn0T-4F7McrCBRt40FSgMnyJEZc2L0YzJpZYgn16dg/viewform",
+    link: "",
     // onSpot: "true",
   },
   {
     id: 16,
-    image: DroneRace,
+    image: BuddhiShamta,
     name: "Buddhi क्षमता ",
     description:
       "Memory Marathon is a fun event that tests students’ memory skills through four  exciting levels. First,participants match card pairs by remembering their  positions. Second,they pair bottles with their correct colors. The third level involves memorizing and recreating object patterns. Finally, participants identify objects out of options by their names and colors.",
@@ -529,11 +533,11 @@ export const eventsData = [
       "Organizers reserve the rights to make changes to the field design at any time without prior notification.",
       "Teams can also register at the venue on the day of the event at least an hour prior to the event.",
     ],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSd2Uc8Kyn0T-4F7McrCBRt40FSgMnyJEZc2L0YzJpZYgn16dg/viewform",
+    link: "",
   },
   {
     id: 17,
-    image: DroneRace,
+    image: BoatRace,
     name: "Boat Race",
     description:
       " Join us for an exhilarating RC Boat Race Challenge, where enthusiasts and  competitors will showcase their skills in navigating radio-controlled boats through a watercourse filled with obstacles. Participants will race their RC boats in a specially designed water body, maneuvering through twists, turns, and barriers in the shortest possible time to claim victory.",
@@ -559,11 +563,11 @@ export const eventsData = [
     location: "Lawn in front of C wing",
     date: "20th Feb (Full Day)",
     note: [""],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSd3f8HXzhh4EvjNh2S2NAo4o5GRotXv3n4038NusyvUmsQFYw/viewform",
+    link: "",
   },
   {
     id: 18,
-    image: DroneRace,
+    image: ReasoningRumble,
     name: "Reasoning Rumble",
     description:
       " Get ready for Reasoning Rumble, a thrilling challenge of reasoning, aptitude, and logic! Test your skills with puzzles like dice face challenges, distance calculations, ratios, and pattern recognition, all designed to push your mental agility to the limits. Perfect for puzzle enthusiasts and analytical minds, this event is your chance to shine, have fun, and compete for the title of Ultimate Logic Champion!",
@@ -582,9 +586,11 @@ export const eventsData = [
     location: "CAD/CAM Lab",
     date: "21/02/2023 (10:00 A.M to 1:00 P.M)",
     note: [""],
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSdoBbbc_iWaqnNIhqyKIGMeQP5JWhjXmtUTaDtxBsUmts_PZg/viewform",
+    link: "",
   },
-  {/*
+
+];
+/*{/*
     id: 19,
     image: TremblingTower,
     name: "TREMBLING TOWER",
@@ -838,5 +844,4 @@ export const eventsData = [
   //   note: [""],
   //   link: "",
   // */
-  },
-];
+// },
