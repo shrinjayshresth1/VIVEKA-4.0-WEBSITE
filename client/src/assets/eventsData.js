@@ -1,31 +1,28 @@
 import bgmi from "./Events/bgmi.png";
 import FindTheLanguage from "./Events/find the language.png";
-import FlyHigh from "./Events/FlyHigh.png";
-import SpaceExpo from "./Events/mesmerize.png";
+
 import RoboRace from "./Events/robo race.png";
-import RelayRacing from "./Events/RelayRacing.png";
-import MurderMystery from "./Events/MurderMystery.png";
-import ShotOnQuiz from "./Events/ShotOnQuiz.png";
+
 import RoboSoccer from "./Events/robo soccer.png";
-import DraicPlayground from "./Events/DraicPlayground.png";
-import HopSites from "./Events/HopSites.png";
-import CodeBuddies from "./Events/CodeBuddies.png";
-import MaskedCoding from "./Events/MaskedCoding.png";
-import Blogathon from "./Events/Blogathon.png";
-import BotBusters from "./Events/BotBusters.png";
-import CadCompetiton from "./Events/CadCompetiton.png";
-import GamingZone from "./Events/GamingZone.png";
+import RoboWar from "./Events/robo war.png"
+import DroneRace from "./Events/drone race.png"
+import Structomania from "./Events/structromania.png"
+import PuzzleMania from "./Events/puzzle mania.png"
+import Hackathon from "./Events/hack-a-thon.png"
+import DigiArt from "./Events/digi art.png"
+import LaserLightShow from "./Events/laser light show.png"
+
+
 import freefire from "./Events/freefire.png";
 // import KeynoteSession from "./Events/KeynoteSession.png";
-import ReadandType from "./Events/ReadandType.png";
+
 import Meshmerize from "./Events/mesmerize.png";
 // import web3 from "./Events/Web3.png";
-import SupercarShow from "./Events/SupercarShow.png";
-import TremblingTower from "./Events/TremblingTower.png";
-import Hackathon from "./Events/hack-a-thon.png";
+
+// import Hackathon from "./Events/hack-a-thon.png";
 
 import codex from "./Events/codex.png";
-import quiz from "./Events/quiz.png";
+
 
 export const eventsData = [
   {
@@ -72,10 +69,10 @@ export const eventsData = [
     ],
     prizes: ["EXICITING PRIZES AND REWARDS"],
     team: "Individual",
-    fees: "Free",
+    fees: "₹200",
     contactInfo: [
       "Jay Kushwaha : 7376670178",
-      "Ayush Yadav : ",
+      "Ayush Yadav : 7084297850 ",
       "Mohd Tabish Khan : 95194931113",
     ],
     location: "To be announced!",
@@ -98,12 +95,13 @@ export const eventsData = [
       "The Winner will be decided with an appropriate coding answer provided 5.If both the rivals submitted an appropriate answer, minimum time will be considered as a factor for the results.",
     ],
     prizes: ["EXICITING PRIZES AND REWARDS"],
-    team: "Solo/Duo",
-    fees: "₹150(Solo/Duo)",
+    team: "Team of 2 members",
+    fees: "₹160",
     contactInfo: [
       "Shrinjay Shresth : 9334916387",
       "Sankalp Jaiswal :  8303584456",
       "Pragya Sharma : 6387543491",
+      "Haider Ali : 7388190105"
     ],
     location: "B2/Computer Labs",
     date: "To be announced!",
@@ -135,7 +133,6 @@ export const eventsData = [
     fees: "₹50",
     contactInfo: [
       "Priyanshi Srivastava : 8687968902",
-      "Nandini Verma : 8931809103",
       "Anjali Srivastava : 8601438889",
       "Satyam Patel : 9005740363",
     ],
@@ -166,11 +163,11 @@ export const eventsData = [
       "Participation Certificates by IEEE and CIIE for all participants.",
     ],
     team: "1-4 Members",
-    fees: "To be announced!",
+    fees: "School Entry Fees : ₹100 : : University Entry Fees : ₹200",
     contactInfo: [
       "Shrinjay Shresth  :  9334916387",
       "Mohd Tabish Khan : 95194931113",
-      "Ansh Kumar Singh : 7905551795",
+      "Aditya Gupta : ",
     ],
     location: "To be announced!",
     date: "8th February, 2025",
@@ -183,7 +180,7 @@ export const eventsData = [
   {
     id: 6,
     image: RoboRace,
-    name: "Robo Race",
+    name: "Robo दौड़",
     description:
       " Navigate your robot through a challenging obstacle course and reach the finish line in record time! Showcase your engineering skills, strategy, and precision to conquer the hurdles and claim the top spot",
     rules: [
@@ -219,18 +216,17 @@ export const eventsData = [
   {
     id: 7,
     image: RoboSoccer,
-    name: "Robo Soccer",
+    name: "Robo फुटबॉल",
     description: [
       "Put your bot-building and soccer skills to the test in Robo Soccer! Compete in a fast-paced knockout tournament where strategy, control, and teamwork will  determine the champion. Outplay your opponents and lead your bot to victory!",
     ],
     rules: [
-      "Maximum 4 persons are allowed in a team.",
+      "Maximum 2 persons are allowed in a team.",
       "Each team must bring their own robot for the competition.",
       "The robot specifications are as follows:",
-      "Voltage: 24V (10% tolerance).",
+      "Voltage: 12V (10% tolerance).",
       "Bot Dimensions: 35x35x35 cm.",
       "Weight Category: 5 kg (±5% tolerance).",
-      "The competition will be a knockout event held in a war arena.",
       "The match duration is 2 minutes with a 1-minute timeout allowed per match.",
       "All participants are required to report 30 minutes before the event starts at the reporting desk.",
       "Each participant must carry a valid college ID card or an acceptable proof of identity.",
@@ -243,12 +239,12 @@ export const eventsData = [
       "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
       "Participation Certificates by IEEE and CIIE for all participants.",
     ],
-    team: "Team of MAX 4 members(From the same institution).",
-    fees: "₹250 per bot.",
+    team: "Team of MAX 2 members(From the same institution).",
+    fees: "₹100 per bot.",
     contactInfo: [
-      "Shashank Kumar : 6306569583",
-      "Gautam Sharma : 9135256579",
-      "Dhruv Pathak : 8604440669",
+      "Aadi Chandra : ",
+      "Yash Mishra : ",
+      "Shreshth Sharma : ",
     ],
     location: "To be announced!",
     date: "6th february,2025",
@@ -261,214 +257,183 @@ export const eventsData = [
  
     id: 8,
     image: Meshmerize,
-    name: "Mesmerize",
+    name: "Path Finder : Robot",
     description:
-      "The Contest is a skill-based typing contest, in which eligible participants will compete by taking an online typing contest using an online typing website, ztype.pe which tests a Participant's speed and accuracy by calculating the word-per-minute typing speed ('WPM'). Once the game is completed, the website will calculate and indicate to the Participant what his or her final score and accuracy is which will be recorded. This score will be compared  against other Participants who have already played the game. At the end of the contest the Participants on the top of the leaderboard will be declared as winners.",
+      "Dive into the world of robotics with Mesmerize, an exhilarating competition where innovation meets precision! In this event, teams will design and build an autonomous bot capable of navigating a maze by following white lines, analyzing paths, and reaching the endpoint in record time.",
     rules: [
-      "Players can have one trial round to understand the game.",
-      "Each player can play the game only 3 times. ",
-      "The best score out of three games will be considered as the final score.",
-      "The player will be judged by the final score and accuracy after the game.",
-      "EVALUATION CRITERIA:",
-      "   The final score and accuracy of the player will be recorded and displayed on the leaderboard.",
-      "   At the end of the event the players on the top of the leaderboards will be the winners.",
+      "Maximum 3 persons are allowed in a team.",
+      "Each team must build an autonomous robot capable of following a white lineand analyzing the path in the maze. ",
+      "The robot must navigate through the maze from the starting point to theending point in the minimum possible time.",
+      "Teams must ensure their robot can autonomously navigate the arena,following the lines and adjusting directions as needed..",
+     
     ],
     prizes: [
-      "Top 3 winners will get any one course out of c++, JAVA, Python, etc. With 100% Scholorship",
-      "Goodies (top 10 )",
+      "RewardsPrize Money and Exciting Rewards for the winners.",
+      "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
+      "Participation Certificates from IEEE and CIIE for all participants.",
     ],
-    team: "Individual",
-    fees: "Free",
-    contactInfo: ["Prasad Upasani : 7774040131"],
-    location: "about to be fixed",
-    date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
-    note: [""],
+    team: "Team of MAX 3 members(From the same institution)",
+    fees: "₹150 per team",
+    contactInfo: [" Nitin Jaiswal : 8765610216","Anshu Kasaudhan : 7068339541", "Om Jaiswal : 7068339541"],
+    location: "To Be Announced",
+    date: "6th February , 2025",
+    note: ["Hardcopy certificates will be awarded only to the winners. All otherparticipants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
   },
-  {/*
+  {
     id: 9,
-    image: quiz,
-    name: "Quiz",
+    image: RoboWar,
+    name: "Robo War",
     description:
-      "In this contest at a time minimum 10 contestants can participate. Questions will be flashed on the screen one by one. There would be a buzzer system for the contestants. The person who hits the buzzer first will be given a chance to answer the displayed question. Maximum points to be awarded to the contestent if he/she gives correct answer in minimum time.",
+      "Prepare for an electrifying faceoff in Mini War, a knockout competition that pits mini bots against each other in a highintensity war arena! Bring your ustom-built bot to battle it out or glory, strategy, and echanical supremacy.  let your innovation and engineering skills shine in this thrilling event.",
     rules: [
-      "This quiz is based on the buzzer system. The person who hits the buzzer first will be given first priority to answer the question.",
-      "Complete individual event.",
-      "EVALUATION CRITERIA:",
-      "   At the end of the quiz contest the contestant with a high score will be declared as the winner.",
-      "   Every Contestant should have a smart phone with constant internate connection.",
-      "   Hotspot facility will provided by the organizer.",
+      "Each round will be a 1v1 knockout match in the war arena.",
+      "The robot that immobilizes or defeats its opponent within the matchduration will be declared the winner of the round",
+      "Teams will progress to the next round based on knockouts until a finalwinner is declared.",
+      
     ],
     prizes: [
-      "Top 3 winners will get any one course out of c++, JAVA, Python, etc. With 100% Scholorship",
+      "RewardsPrize Money and Exciting Rewards for the winners.",
+      "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
+      "Participation Certificates from IEEE and CIIE for all participants.",
     ],
-    team: "5 contestants at a time",
-    fees: "Free",
+    team: "Team of MAX 4 members(From the same institution)",
+    fees: "to be announced",
     contactInfo: [
-      "Yash Gokakkar : 7499822665",
-      "Omkar Shedge : 8308882756",
-      "Sarvesh Zende : 9356552975",
+      "Shashank Kumar : 6306569583",
+      "Gautam Sharma : 9135256579",
+      "Dhruv Pathak : ",
     ],
-    location: "Virtusa Lab (A Wing)",
-    date: "20 AND 21 FEBRUARY (10:00 AM to 5:00 PM)",
-    note: [""],
+    location: "To be announced",
+    date: "7th February , 2025",
+    note: ["Hardcopy certificates will be awarded only to the winners. All otherparticipants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
   },
   {
     id: 10,
-    image: HopSites,
-    name: "Hop Sites",
+    image: DroneRace,
+    name: "Drone Race",
     description: [
-      "An activity in which players have to find out the clues by visiting different website by decoding the clue given at the beginning – just like treasure hunt participants will visit different websites & the one who decodes all the clues & complete the tasks will be considered as winner.",
-      "Get ready to embark on a thrilling digital adventure! This online treasure hunt will take you on a journey through the web as you decode clues, complete challenges and discover hidden treasures, work your way through the puzzle and be crowned the ultimate champion! Don't miss out on this unforgettable experience, register now!",
+      "Take to the skies in the exhilarating Drone Race! This highspeed,action-packed vent challenges participants to race their drones through a complex obstacle course, testing their piloting skills, precision, and speed. Whether you're an experienced drone racer or a beginner, this event offers the ultimate test of your aerial abilities!",
     ],
     rules: [
-      "Get ready to embark on a thrilling digital adventure! This online treasure hunt will take you on a journey through the web as you decode clues, complete challenges and discover hidden treasures, work your way through the puzzle and be crowned the ultimate champion!",
-      "Disclaimer :",
-      "The participant will receive a clue about: ",
-      "The website to be visited.",
-      "The element which is required to be found on the website.",
-      "Participant is required to enter the element in the entry box for verification and get clue for further websites.",
-      "Accessing sites not related to game will result in disqualification.",
+      "Complete 3 laps on an obstacle-filled track.",
+      "Checkpoints are mandatory; missing one adds a 10-second penalty.",
+      "No intentional collisions; violators will be disqualified.",
+      "Crashed drones can relaunch from the last checkpoint without pausing the timer.",
     ],
     prizes: [
-      "Each individual who successfully finds treasure in his first attempt will be rewarded with special GOODIES.",
+      "Prizes for Top 3 and special awards for Best Design/Maneuver.",
     ],
-    team: "Individual",
-    fees: "20Rs. per person",
-    contactInfo: ["Riyal Jain: 7470423278", "Vardhaman Begani: 7020676300"],
-    location: "C wing Basement",
-    date: "20 & 21 Feb full day",
+    team: "Team of MAX 4 members with same institution",
+    fees: "₹200 per team",
+    contactInfo: ["Kshitij Gupta : 9455813610", "Shubham Tiwari :  8081766693", "Utkarsh Singh : 8756506613"],
+    location: "To be announced",
+    date: "6th February , 2025",
     note: [
-      "Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision",
+      "Hardcopy certificates will be awarded only to the winners. All otherparticipants will receive softcopy certificates",
     ],
-    link: "",
+    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
   },
   {
     id: 11,
-    image: CodeBuddies,
-    name: "CodeBuddies",
+    image: Structomania,
+    name: "Structomania",
     description: [
-      "The Partner Coding Competition is an exciting and unique challenge that combines the power of teamwork with the thrill of technology. Here, two coders will join forces to solve a coding problem in an innovative and interactive way. One partner will write a line of code and then pass the baton to the other partner, who will continue the solution by writing the next line. This pattern will repeat until the problem is solved, creating a seamless collaboration between the two partners.",
-      "Whether you're a seasoned programmer or just starting out, this competition is a fantastic opportunity to improve your coding skills and build a stronger partnership with your coding buddy. As you work together to solve the problem, you'll learn from each other's strengths and weaknesses, developing new skills and expanding your knowledge of programming. This is a great way to challenge yourself and grow as a coder while having fun and building lasting memories.",
-      "So, if you're looking for a fresh and exciting way to enhance your coding abilities, sign up for the Partner Coding Competition today! Whether you're competing for the first time or are an experienced coder, this is an opportunity you won't want to miss. Get ready to collaborate, learn, and grow with your coding buddy. The coding journey awaits!",
+      "Step into Structromania, a unique competition where teams design and build wooden structures using limited materials like sticks, threads, and glue. Test your innovation, teamwork, and problem-solving as you create a structure that holds the maximum weight before breaking.",
     ],
     rules: [
-      "The Partner Coding Competition is an exciting and unique challenge that combines the power of teamwork with the thrill of technology. Here, two coders will join forces to solve a coding problem in an innovative and interactive way. One partner will write a line of code and then pass the baton to the other partner, who will continue the solution by writing the next line. This pattern will repeat until the problem is solved, creating a seamless collaboration between the two partners.",
-      "Disclaimer :",
-      "Two participants will take turns writing lines of code to solve a given problem statement.",
-      "In stage 1 partners are allowed to discuss while coding.",
-      "In stage 2 partners are not allowed to discuss while coding . Instead they will be given a set amount of time before starting to plan their approach.",
-      "In stage 3 partners are not at all allowed to discuss while and before coding.",
-      "Lines of code will be visible only to the person who is writing them and not to their partner.",
-      "All stages will contain basic and easy problem statements.",
-      "Successful execution of code results in a win.",
+      "The structure must be built using only the provided wooden sticks andthread.",
+      "Teams must adhere to the material limits specified for the event.", "The structure must be freestanding and fit within a predefined base area(dimensions will be announced at the event)",
+      "Structures must comply with safety guidelines and not pose any risk toparticipants or judges.",
+      "Teams will have 3 hours to complete their structure within the designatedconstruction phase.",
+      "Only team members are allowed to work on the structure; external help isstrictly prohibited.",
+      "Teams must operate within their assigned workspace.", "Teams must carry their registration receipt and valid ID proof forparticipation.",
+      "Any misbehavior during the event will lead to immediate disqualification.","Participants must report 30 minutes before the event starts at the reportingdesk",
     ],
     prizes: [
-      "Each team that successfully completes all the questions in their first attempt will be rewarded with special GOODIES",
+     "RewardsPrize Money and Exciting Rewards for the winners.",
+      "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
+      "Participation Certificates from IEEE and CIIE for all participants.",
     ],
-    team: "2 members",
-    fees: "20Rs. per team",
-    contactInfo: ["Atharv Badwaik: 7888126711", "Nikita Thakur: 7021815065"],
-    location: "C wing Basement",
-    date: "20 & 21 Feb full day",
+    team: "Team of MAX 3 members with same institution",
+    fees: "to be announced",
+    contactInfo: ["Agrim Mishra: 9369236427", "Sabhyata Singh : ", "Shiva Sharma : ","Isha Singh : 9305139337"],
+    location: "To be announced",
+    date: "7th February , 2025",
     note: [
-      "Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision",
+     "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates",
     ],
-    link: "/",
+    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
   },
   {
     id: 12,
-    image: MaskedCoding,
-    name: "Masked coding",
+    image: PuzzleMania,
+    name: "Recall-O-Tune",
     description:
-      "An event where a programmer is asked to code without looking at the screen. The programmer is given a problem to solve and has to write the code from memory, typing it out on a keyboard. The goal of this event is to test the programmer's ability to recall syntax and programming concepts, as well as their ability to think logically and problem-solve under pressure.",
+      "Challenge your memory and reasoning skills in this exciting event filled with funand intellectual puzzles! Participants will identify logos (University, company, or government organization) and solve puzzles digitally in the shortest possibletime.",
     rules: [
-      "Are you a coding ninja who can write lines of code without even looking at the screen ? If so, we have got the event for you. Join the competition where you will be given a blank screen anda problem statement to solve .With no visual cues, its all up to your mastery of the keyboard to execute your code and emerge as a coding champion.",
-      "Disclaimer :",
-      "Event consists of single participant who will write lines of code to solve a given problem statement.",
-      "Participant will be provided with keyboard and blank screen. The screen will not display any text , participants will not be able to see what they are typing.",
-      "Participant will win the event if their code successfully executes and solves the problem in given time limit.",
-      "Participant must not communicate with any other person or use any external resources such as internet during the event.",
+      "The event consists of three rounds designed to test general intelligence.",
+      "All puzzles will be presented digitally.",
+      "Participants must complete tasks in the least possible time.",
+      "Misbehavior or misconduct will result in disqualification.","Valid college ID or proof of identity is required.",
+      "Participants must report 30 minutes before the event at the reporting desk.",
     ],
     prizes: [
-      "Each individual who successfully completes all rounds of code questions will win goodies",
+     "RewardsPrize Money and Exciting Rewards for the winners.",
+      "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
+      "Participation Certificates from IEEE and CIIE for all participants.",
     ],
     team: "Individual",
-    fees: "20Rs. per person",
-    contactInfo: ["Deepal Mundhada: 9028935100", "Sukrut Rahane: 8446698770"],
-    location: "C wing Basement",
-    date: "20 & 21 Feb full day",
+    fees: "₹50 per person",
+    contactInfo: ["Aayush Baranawal: 7985534101", "Kritagya Bhagat : 9142197242", "Vinay Yadav : "],
+    location: "To be announced",
+    date: "7th February , 2025",
     note: [
-      "Final rules or any changes in rules will be informed to you before the event And umpire(event handler) decision will be final decision",
+      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates",
     ],
-    link: "/",
+    link: "https://docs.google.com/forms/d/1POXKCUgYFHqdmLj1XefekmTLfqBFF_cG3DHEDTGB-Pg/viewform?edit_requested=true#settings",
   },
   {
     id: 13,
-    image: ShotOnQuiz,
-    name: "Shot On Quiz",
-    description:
-      " A fun quizzes competition between teams where various categories of questions will be asked along with the punishment of drinking different kinds of shots.",
+    image: DigiArt,
+    name: "Digi Art",
+    description:[
+      "Participants will create original designs based on the disclosed theme during the session. Logo Design involves crafting unique logos using tools like Canva, Photoshop, or Figma within 1 hour, followed by 15 minutes for submission in PNG, JPEG, or SVG format with a brief description. UI/UX Design focuses on creating user-friendly interfaces using Figma or Adobe XD within 2 hours, with 15 minutes for submission as a prototype or PDF. The emphasis is on simplicity, creativity, and relevance, with all work completed during the event.",
+    ],
     rules: [
-      "A batch of 4-5 teams will play at a time with each team consisting of 2-3 members.",
-      "Total no of questions per batch - 15",
-      "The first 10 questions will have options with time limit of 30s each and 5 points for each correct answer.",
-      "The last 5 questions will not have options with time limit of 15s and 10 points for each correct answer",
-      "Types of questions- General Science, Entertainment (fun task), dumb charades, etc.",
-      "The team which presses the buzzer first will answer the question.",
-      "If they answer it correctly the other teams will have to take a shot (chosen by chit system).",
-      "If they answer it wrong then that team will take the shot(of the hosts choice).",
-      "3 different shots will be there.",
-      "Rewards- exciting rewards.",
-      "Walk-in Registrations are allowed.",
+      "Teams must register before the specified deadline",
+      "Participants must have a valid college ID or any proof of identity.",
+      "Report 30 minutes before the event at the reporting desk.",
+      "Plagiarism, use of pre-existing templates, pre-built logo elements, use of AI tools will lead to disqualification.",
+      "Misbehavior or any form of misconduct will lead to disqualification.",
+
+
+
     ],
-    disqualification: [
-      "If a team, after pressing the buzzer first, answers 3 questions wrong continuously.",
-      "Prompting & Misbehaving",
-    ],
-    prizes: ["EXICITING PRIZES AND REWARDS"],
-    team: "2-3 members",
-    fees: "Free",
-    contactInfo: ["Nayan : 9834020168", "Hrutik : 9881087152"],
-    location: "A WING",
-    date: "20th Feb, 10:00 am onwards.",
-    note: [""],
+    // disqualification: [
+    //   "If a team, after pressing the buzzer first, answers 3 questions wrong continuously.",
+    //   "Prompting & Misbehaving",
+    // ],
+    prizes: ["Certificates will be provided to all participants."],
+    team: "Team of MAX 2 for UI/UX :: Individual participation in Logo Design",
+    fees: "Logo Design fees : ₹50 : : UI/UX fees : ₹100",
+    contactInfo: ["Divyanshi Pandey : 9455277431 ", "Anshuma Yadav : 9369885065 ","Angad Singh : 8303449400"],
+    location: "To Be Announced",
+    date: "8th February , 2025",
+    note: ["Hardcopy certificates will be awarded only to the winners. Allother participants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeXHY3fe3259AmtmItE5u86mwj17aDg3H6KpPwq4yGa54AkUQ/viewform",
   },
   {
     id: 14,
-    image: RoboRace,
-    name: "ROBO Race",
+    image: LaserLightShow,
+    name: "Laser Light Show",
     description:
-      " Teams have to build a manually controlled bot with the aim to tackle maximum number of obstacles in minimum amount of time.",
-    rules: [
-      "BOT SPECIFICATIONS:",
-      "   Maximum dimensions - 30 x 30 x 30 cm (L x B x H) at all times during runtime.",
-      "   Maximum weight - 4 Kg",
-      "   The bot is allowed to be powered at any supply voltage.",
-      "   The controller can be wired or wireless, in case of wired, the wire must be placed at the back.",
-      "ROBO RACE ARENA:",
-      "   The exact arena will be displayed at the event.",
-      "GAMEPLAY:",
-      "   The bot should always cover entire track",
-      "   Each participant will have three attempts. Best score will be selected as final score.",
-      "   The exact pointing system and award for each obstacle will be clearly announced to the participants before their respective runs.",
-      "RULES:",
-      "   The bots will be checked for safety once before a run.",
-      "   Only one operator is allowed to control the bot.",
-      "   The operator cannot be changed during the runtime.",
-      "   The organizers reserve the right to stop the run at any time where use of unfair means is observed.",
-      "   The bot is not allowed to be powered by combustible, inflammable, explosive or any potentially dangerous processes.",
-      "   After 2 warnings organizers have the power to deduct a suitable penalty.",
-      "   Every operator must have unique bots and use of same bots by various contestants is prohibited.",
-      "   The time measured by the organizers will be final and will be used for scoring of the teams.",
-      "   In case of any disputes or discrepancies, the organizers decision will be final and binding.",
-      "   Not complying to any of the above-mentioned rules will lead to disqualification of the team.",
-    ],
-    prizes: ["Winner: Rs. 6,000/-", "Runner Up: Rs. 4,000/-"],
-    team: "Team ",
-    fees: "Rs.199/- per Team.",
+      "Step into a world of magic and rhythm with the Laser Light Extravaganza, the highlight of TechFest! This immersive event combines dazzling laser displays with pulsating music and energetic dance performances, creating an unforgettable experience. To add a spark of romance, special couple events bring an enchanting charm to the festivities.",
+    rules: [],
+    prizes: ["Participation Certificates by IEEE and CIIE for all participants."],
+    team: "Single Entry and Couple Entry ",
+    fees: [" Single Entry : ₹ 100 : : "," Couple Entry : ₹150 "],
     contactInfo: ["Vedant Dashmukhe : 7447667935"],
     location: "Student Plaza, DYPCOE, Akurdi",
     date: "20 February 2023 (10 am Onwards)",
@@ -481,26 +446,32 @@ export const eventsData = [
   },
   {
     id: 15,
-    image: DraicPlayground,
-    name: "DRAIC Playground",
-    description: "Remaining",
-    rules: ["NA"],
-    prizes: ["NA"],
+    image: DroneRace,
+    name: "Rubics Cube",
+    description: "Cubing Clash is a thrilling event for puzzle enthusiasts, problem  solvers, and speed cubers of all skill levels. Highlights include a speed cubing competition, creative challenges, and learning sessions with expert cubers.",
+    rules: [
+      "The event is open to all school-level participants, who must register before the event starts.",
+      "Only standard 3x3 Rubik's Cubes are allowed, and participants must use their own untampered cubes.",
+      "The competition will have multiple rounds, with the fastest solve time in each round determining the rank.",
+      "Timing starts as soon as the cube is touched, with a maximum of 10 seconds allowed for inspection before solving.",
+      "Winners are selected based on solve time, and ties will be resolved with an additional round.",
+      "Disqualification will occur for tampered cubes or rule violations."],
+    prizes: ["Prizes/Rewards will be awarded to the top 3 participants based on final standings."],
     team: "Individual",
-    fees: "Free",
-    contactInfo: ["Sumeet Jadhav : 9370580799"],
-    location: "Student Plaza, DYPCOE, Akurdi",
-    date: "20th and 21st February 2023 (10 am Onwards)",
+    fees: "₹50 per person",
+    contactInfo: ["Aadi Chandra : 9335402749", "Sabhyata Singh : 6394535041 ", "Rashi Malik : 8707340147 "],
+    location: "To be announced",
+    date: "6th february , 2025",
     note: ["NA"],
-    link: "",
-    onSpot: "true",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSd2Uc8Kyn0T-4F7McrCBRt40FSgMnyJEZc2L0YzJpZYgn16dg/viewform",
+    // onSpot: "true",
   },
   {
     id: 16,
-    image: RoboSoccer,
-    name: "ROBO Soccer",
+    image: DroneRace,
+    name: "Buddhi क्षमता ",
     description:
-      "Two bots face off in an exhilarating match of football. Teams have to build a bot capable scoring goals and also defend against the opponent.",
+      "Memory Marathon is a fun event that tests students’ memory skills through four  exciting levels. First,participants match card pairs by remembering their  positions. Second,they pair bottles with their correct colors. The third level involves memorizing and recreating object patterns. Finally, participants identify objects out of options by their names and colors.",
     rules: [
       "BOT SPECIFICATIONS:",
       "   Maximum bot dimension - 30 x 30 x 30 cm (L x B x H)",
@@ -545,11 +516,11 @@ export const eventsData = [
       "   Failure in abiding to any of the given rules will lead to immediate disqualification of the team.",
     ],
     prizes: ["Winner: Rs. 6,000/-", "Runner Up: Rs. 4,000/-"],
-    team: "Team ",
-    fees: "Rs.199/- per Team.",
-    contactInfo: ["Sanchit Kasar : 7773909160"],
+    team: "Individual ",
+    fees: "Rs 50/- per Person.",
+    contactInfo: ["Nandini Verma : 7773909160" , "Dhruv Pathak", "Aradhya Gupta : "],
     location: "Student Plaza, DYPCOE, Akurdi",
-    date: "20 February 2023 (10 am Onwards)",
+    date: "06 February 2025 (11 am Onwards)",
     note: [
       "All participants must carry their valid college id-cards and the registration receipt.",
       "The decision of organizers will be final in all respects during the competition and participants must abide to the same.",
@@ -562,10 +533,10 @@ export const eventsData = [
   },
   {
     id: 17,
-    image: BotBusters,
-    name: "ROBO Buster",
+    image: DroneRace,
+    name: "Boat Race",
     description:
-      " ENTC department Presents ROBO BURSTER This game is all about team war between 4 people which will be in 2v2 form. In this event we have to burst all the balloon/lives of the opponent’s bot before the given time limit, the team which bursts all the balloons in minimum time will be the winner of the event. It’s more like TDM (Team Death Match).Step into a world of excitement with Robots! Go wild as you race against time and pop balloons, dodge needles and beat the clock to become the ultimate BURSTER. Get ready and buckle up your seats",
+      " Join us for an exhilarating RC Boat Race Challenge, where enthusiasts and  competitors will showcase their skills in navigating radio-controlled boats through a watercourse filled with obstacles. Participants will race their RC boats in a specially designed water body, maneuvering through twists, turns, and barriers in the shortest possible time to claim victory.",
     rules: [
       "OBJECTIVE: To burst maximum number of balloons in minimum  amount of time.",
       "COMPOSITION OF TEAM:  2 players per team.",
@@ -592,10 +563,10 @@ export const eventsData = [
   },
   {
     id: 18,
-    image: CadCompetiton,
-    name: "CAD Competition",
+    image: DroneRace,
+    name: "Reasoning Rumble",
     description:
-      " CAD Competition is an event where students interested in designing and modeling can show their skills/talent and win exciting prizes. CAD Competition is not limited by specific software use, any designing software, be it Solidworks, Catia, AutoCAD, etc. can be used by participants. Participants can bring their own laptop/system consisting of any design software or else system will be provided to them by organizers",
+      " Get ready for Reasoning Rumble, a thrilling challenge of reasoning, aptitude, and logic! Test your skills with puzzles like dice face challenges, distance calculations, ratios, and pattern recognition, all designed to push your mental agility to the limits. Perfect for puzzle enthusiasts and analytical minds, this event is your chance to shine, have fun, and compete for the title of Ultimate Logic Champion!",
     rules: [
       "Make design from scratch",
       "No use of the Internet while designing.",
@@ -613,7 +584,7 @@ export const eventsData = [
     note: [""],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdoBbbc_iWaqnNIhqyKIGMeQP5JWhjXmtUTaDtxBsUmts_PZg/viewform",
   },
-  {
+  {/*
     id: 19,
     image: TremblingTower,
     name: "TREMBLING TOWER",
