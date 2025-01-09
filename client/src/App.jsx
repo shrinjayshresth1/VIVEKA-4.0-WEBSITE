@@ -18,6 +18,7 @@ import Popup from "./components/common/Popup/Popup";
 // import Swup from "swup";
 /* Google Analytics */
 import ReactGA from "react-ga";
+import OC from "./pages/OC";
 const TRACKING_ID = "UA-257375779-1"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
@@ -68,6 +69,7 @@ const App = () => {
             <Route path="/register" element={<Register />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/hidden" element={<Hidden/>} />
+            <Route path="/organizers" element={<OC/>} />
             {/*   <Route path="/leaderboard/:eventId" element={<Leaderboard />} />
           <Route path="*" element={<NotFound />}></Route> */}
             {/* <Route path="/" element={<Landing />}></Route>  */}
