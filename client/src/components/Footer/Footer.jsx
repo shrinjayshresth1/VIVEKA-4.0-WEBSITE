@@ -105,7 +105,7 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p>7447819903</p>
+              <p>9555686979</p>
             </div>
           </div>
           <div className={classes.footer_contact}>
@@ -135,16 +135,6 @@ const Footer = () => {
           </a>{" "}
           ,{" "}
           <a
-            href={sankalpurl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classes.footer_a_link}
-          >
-            {" "}
-            @Sankalp Jaiswal
-          </a>{" "}
-          and{" "}
-          <a
             href={ksgurl}
             target="_blank"
             rel="noopener noreferrer"
@@ -152,6 +142,16 @@ const Footer = () => {
           >
             {" "}
             @Kushagra Chaturvedi
+          </a>{" "}
+          and{" "}
+          <a
+            href={sankalpurl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={classes.footer_a_link}
+          >
+            {" "}
+            @Sankalp Jaiswal
           </a>{" "}
         </h4>
       </div>
