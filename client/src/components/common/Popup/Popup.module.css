@@ -106,6 +106,7 @@
 }
 .grabbit_image {
   width: 200px;
+  height : 120px;
   z-index: 2;
   transition: all 0.3s ease-in;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,

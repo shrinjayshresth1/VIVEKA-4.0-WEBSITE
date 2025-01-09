@@ -11,15 +11,21 @@ const About = () => {
             <h3 className={classes.heading}>About</h3>
             <h2 className={classes.heading1}>Viveka 4.0</h2>
             <p className={classes.para}>
-              <strong>Viveka 4.0: <i>The Intelligence</i></strong> is a technical festival offering a diverse range of events
-              and competitions focused on technology and innovation. It provides
-              a platform for individuals to showcase their skills, learn from
-              others, and foster creativity, teamwork, and problem-solving
-              abilities. By exposing attendees to the latest advancements in
-              technology, Viveka 4.0 helps broaden their knowledge and skillset,
-              making it a fun, engaging, and enriching experience for all
-              attendees. Get ready to be a part of the biggest technical
-              extravaganza of the year 2k25– Viveka 4.0
+              <strong>
+                Viveka 4.0: <i>The Intelligence</i>
+              </strong>{" "}
+              is the Annual Techfest of Shri Ramswaroop Memorial University
+              organized under the initiative of Tech Fusion Club. Unleash your
+              technical skills in the vast horizon of events.
+            </p>
+
+            <p className={classes.para}>
+              <strong>
+                Viveka 4.0 
+              </strong>{" "}
+              promises a thrilling experience for all tech enthusiasts. We are
+              writing to you with the hope that your esteemed organization will
+              consider sponsoring our event.
             </p>
 
             {/* <p className={classes.para}>

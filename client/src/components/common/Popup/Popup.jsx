@@ -5,7 +5,8 @@ import classes from "./Popup.module.css";
 // import GrabBitBtn from "../GrabBitBtn/GrabBitBtn";
 // import grabbits from "../../../assets/grabbits.png";
 // import { NavLink } from "react-router-dom";
-import logo from "../../../assets/Logo.png";
+// import logo from "../../../assets/Logo.png";
+import Viveka from "../../../assets/vivekaLogo.png"
 import Button from "../Button/Button";
 
 const Popup = () => {
@@ -31,9 +32,9 @@ const Popup = () => {
         <>
           <div className={classes.blur}>
             <div className={classes.card}>
-              <img className={classes.grabbit_image} src={logo} alt="logo" />
+              <img className={classes.grabbit_image} src={Viveka} alt="logo" />
               <h2 className={classes.text}>Exploring Viveka 4.0 is Free!</h2>
-              <h1 className={classes.subtext}>Most of our Events are free.</h1>
+              <h1 className={classes.subtext}>Get enroll in the most awaited and exciting events</h1>
               <div className={classes.btn_container}>
                 <Button
                   onClick={handleClose}

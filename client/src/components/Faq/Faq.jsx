@@ -5,22 +5,22 @@ const questions = [
   {
     question: "What is Viveka 4.0?",
     answer:
-      "Viveka 4.0 is the one of biggest Technical event in the history of Shri Ramswaroop Memorial Unoiversity.",
+      "Viveka 4.0 is one of the biggest technical events in the history of Shri Ramswaroop Memorial University.",
   },
   {
-    question: "What are the Dates and Timings of event?",
+    question: "What are the Dates and Timings of the event?",
     answer:
-      "The event will start at 9AM on 20th Feb and will be till 21st of Feb 10 PM",
+      "The event will start at 9 AM on 06th Feb and will be till 8th of Feb 10 PM.",
   },
   {
     question: "How can I participate in the event?",
     answer:
-      "Explore various events on the SAMBHAV's website and register for the same",
+      "Explore various events on the VIVEKA-4.O website and register for the same.",
   },
   {
-    question: "Is there any entry fee for Viveka 4.0?",
+    question: "Are there any rewards or prizes for the winners ?",
     answer:
-      "No, there is not any entry fee to explore Viveka 4.0 but to participate in some events you have pay registration fee.",
+      "Of Course !",
   },
 ];
 
@@ -39,27 +39,25 @@ const Faq = () => {
     <section className={classes.faqSection}>
       <div className={classes.heading}>FAQ</div>
       <div className={classes.faq}>
-        {questions.map((ques, i) => {
-          return (
-            <div className={classes.single} onClick={() => toggle(i)}>
-              <div className={classes.question}>{ques.question}</div>
-              <div
-                className={`${
-                  clicked === i ? classes.answer : classes.noAnswer
-                }`}
-              >
-                {ques.answer}
-              </div>
-              <span className={classes.btn}>+</span>
+        {questions.map((ques, i) => (
+          <div
+            key={i}
+            className={classes.single}
+            onClick={() => toggle(i)}
+          >
+            <div className={classes.question}>{ques.question}</div>
+            <div
+              className={`${
+                clicked === i ? classes.answer : classes.noAnswer
+              }`}
+            >
+              {ques.answer}
             </div>
-          );
-        })}
-
-        {/* <div className={classes.single}>
-                <div className={classes.question}>How are you?</div>
-                <div className={classes.answer}>I am fine</div>
-                <span className={classes.btn}>+</span>
-            </div> */}
+            <span className={classes.btn}>
+              {clicked === i ? "-" : "+"}
+            </span>
+          </div>
+        ))}
       </div>
     </section>
   );
