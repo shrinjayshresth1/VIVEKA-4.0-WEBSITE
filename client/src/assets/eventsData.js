@@ -444,11 +444,9 @@ export const eventsData = [
     id: 13,
     image: DigiArt,
     name: "Digi Art",
-    description: [
+    description: 
       
-      "Participants will create original designs based on the disclosed theme during the session. Logo Design involves crafting unique logos using tools like Canva, Photoshop, or Figma within 1 hour, followed by 15 minutes for submission in PNG, JPEG, or SVG format with a brief description." , 
-      "UI/UX Design focuses on creating user-friendly interfaces using Figma or Adobe XD within 2 hours with 15 minutes for submission as a prototype or PDF. The emphasis is on simplicity, creativity, and relevance, with all work completed during the event.",
-    ],
+      "Participants will create original designs based on the disclosed theme during the session.\nLogo Design involves crafting unique logos using tools like Canva, Photoshop, or Figma within 1 hour, followed by 15 minutes for submission in PNG, JPEG, or SVG format with a brief description. \n UI/UX Design focuses on creating user-friendly interfaces using Figma or Adobe XD within 2 hours with 15 minutes for submission as a prototype or PDF. The emphasis is on simplicity, creativity, and relevance, with all work completed during the event.",
     
     
     rules: [
