@@ -83,6 +83,9 @@
   .single {
     width: 40rem;
   }
+  .question{
+    width: 90%;
+  }
 }
 .btn {
   position: absolute;
@@ -91,6 +94,8 @@
   right: 1rem;
   cursor: pointer;
   transition: transform 0.2s ease; 
+  margin-left: 5rem;
+  
 
 .single:hover .btn {
   transform: scale(1.1); 
