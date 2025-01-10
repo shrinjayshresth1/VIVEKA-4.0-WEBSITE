@@ -1,18 +1,17 @@
-.ocContainer{
+.ocContainer {
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
+
 .ocSec {
     height: 100%;
-    padding: 3rem 1.5rem;
+    padding: 4rem 5rem;
     backdrop-filter: blur(5px);
     background-color: rgba(0, 0, 0, 0.432);
-    padding: 4rem 5rem;
     border-radius: 15px;
     margin: 4rem 0;
 }
-
 
 .heading {
     font-size: 4rem;
@@ -21,118 +20,149 @@
     color: #fff;
     text-align: center;
 }
-.cardcontainer{
+
+.cardcontainer {
     margin-top: 6rem;
     display: flex;
     justify-content: space-around;
     overflow-x: auto;
     gap: 3rem;
     flex-wrap: nowrap;
-    /* display: inline-block */
 }
-.card{
+
+.card {
     margin: 3rem 0 1rem 0;
-    border: 2px solid white;
     padding: 2rem;
+    padding-bottom: 2rem;
     width: 25rem;
     min-height: 30rem;
-    border-radius: 4rem;
+    border-radius: 2rem;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* gap: 2rem; */
     flex-shrink: 0;
     color: #fff;
-    transition: all 35ms ease-in-out;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, border 0.3s ease-in-out;
     z-index: 10;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6));
+    border: 2px solid #9b83eb;
+}
 
-    .cardImage{
-        width: 10rem;
-        height: 10rem;
-        border: 2px solid white;
-        border-radius: 50%;
-        margin: 2rem auto  ;
-        ;
-    }
-    .cardName{
-        font-size: 2rem;
-        
-        text-align: center;
-        margin: 1rem;
-        
-    }
-    .cardCourse{
-        font-size: 1.5rem;
-        text-align: center;
-        color: #9b83eb;
-    }
+.cardImage {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #9b83eb;
+    border-radius: 50%;
+    margin: 2rem auto;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cardName {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.cardCourse {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #9b83eb;
+    transition: color 0.3s ease-in-out;
 }
 
 .card:hover {
-    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+    box-shadow: 0px 0px 15px 2px rgba(0, 255, 117, 0.3), 0px 0px 20px 5px rgba(0, 255, 117, 0.2);
     transform: translateY(-5px);
-  }
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.8));
+    border: 2px solid #00ff75;
+    border-radius: 2rem; 
+}
+
+.card:hover .cardImage {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px 3px rgba(0, 255, 117, 0.2);
+}
+
+.card:hover .cardName,
+.card:hover .cardCourse {
+    color: #00ff75;
+}
+
+.linkedinLink {
+    font-size: 2rem;
+    color: #0077b5;
+    text-decoration: none;
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.linkedinLink:hover {
+    color: #006097;
+}
 
 .cardcontainer::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .cardcontainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .card {
+        width: 22rem;
+        margin: 1.5rem;
+        padding: 2.5rem;
+    }
+
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .cardImage {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .cardName {
+        font-size: 1.8rem;
+    }
+
+    .cardCourse {
+        font-size: 1.4rem;
+    }
+}
 
 @media screen and (max-width: 480px) {
+    .cardcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .card {
-        border: 1px solid white;
-    }
-    .cardImage{
-        border: 1px solid white;
-    }
-}
-
-.para {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    opacity: 90%;
-}
-
-.para:not(:last-child) {
-    margin-bottom: 2rem;
-}
-
-.composition {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media screen and (max-width: 768px) {
-    .about {
-        gap: 4rem;
+        width: 100%;
+        margin: 1.5rem 0;
+        padding: 2rem;
     }
 
-    .details {
-        order: 2;
+    .heading {
+        font-size: 3rem;
     }
 
-    .composition {
-        order: 1;
+    .cardImage {
+        width: 9rem;
+        height: 9rem;
     }
 
-    .heading1 {
-        font-size: 5rem;
+    .cardName {
+        font-size: 1.6rem;
     }
-}
 
-.images {
-    box-shadow: 0 1.5rem 4rem rgba(#000, 0.4);
-    border-radius: 2px;
-    transition: all 0.2s;
-    z-index: 20;
-    outline-offset: 2rem;
-    width: 95%;
-}
-
-.btn {
-    margin-bottom: 40px;
+    .cardCourse {
+        font-size: 1.4rem;
+    }
 }
