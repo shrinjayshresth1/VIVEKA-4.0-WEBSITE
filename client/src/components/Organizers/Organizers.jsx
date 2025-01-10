@@ -16,7 +16,7 @@ import Pragya from "../../assets/OC/pragya.jpeg";
 import Sankalp from "../../assets/OC/Sankalp.jpg";
 import Shrinjay from "../../assets/OC/SHRINJAY.jpg";
 import Aadi from "../../assets/OC/Aadi.jpg";
-import KesarRai from "../../assets/OC/Kesar.jpg"
+import Kesar from "../../assets/OC/Kesar.jpg"
 
 const Organizers = () => {
   const festIn = [
@@ -33,12 +33,12 @@ const Organizers = () => {
   const veteran = [
     { name: "Aadya Sharma", course: "BBA.LLB (HONS)", year: "5TH YEAR", image: "", linkedin: "https://www.linkedin.com/in/aadya-sharma-130a27218/" },
     { name: "Atam Prakash Bajpai", course: "B.TECH (ECE)", year: "5TH YEAR", image: Atam, linkedin: "https://www.linkedin.com/in/atam-prakash-bajpai-67441a224/" },
-    { name: "Ayushman Singh", course: "B.TECH (ECE)", year: "5TH YEAR", image: Ayushman, linkedin: "" },
-    { name: "Deepika", course: "M.TECH", year: "5TH YEAR", image: Deepika, linkedin: "" },
+    { name: "Ayushman Singh", course: "B.TECH (ECE)", year: "5TH YEAR", image: Ayushman, linkedin: "https://www.linkedin.com/in/ayushman-singh-413240195" },
+    { name: "Deepika", course: "M.TECH", year: "5TH YEAR", image: Deepika, linkedin: "https://www.linkedin.com/in/deepika-singh-070957230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   ];
 
   const studentCon = [
-    { name: "Kesar Rai", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: KesarRai, linkedin: "https://www.linkedin.com/in/kesarrai/" },
+    { name: "Kesar Rai", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: Kesar , linkedin: "https://www.linkedin.com/in/kesarrai/" },
     { name: "Pranshu Agrahari", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: "", linkedin: "https://www.linkedin.com/in/pranshu-agrahari-956a37288/" },
   ];
 
@@ -47,7 +47,7 @@ const Organizers = () => {
     { name: "Aadi Chandra", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: Aadi, linkedin: "https://www.linkedin.com/in/aadi-chandra-7a4185278/" },
     { name: "Nitin Jaiswal", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: Nitin, linkedin: "https://www.linkedin.com/in/nitin-jaiswal-6b41a024b/" },
     { name: "Nandini Verma", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: Nandini, linkedin: "https://www.linkedin.com/in/nandini-verma-4n5v4/" },
-    { name: "Pragya Sharma", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: Pragya, linkedin: "https://www.linkedin.com/in/pragya" },
+    { name: "Pragya Sharma", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: Pragya, linkedin: "https://www.linkedin.com/in/pragya-sharma-136280280" },
   ];
 
   const webOps = [
