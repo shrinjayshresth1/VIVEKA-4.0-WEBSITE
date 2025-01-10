@@ -17,6 +17,7 @@ import Sankalp from "../../assets/OC/Sankalp.jpg";
 import Shrinjay from "../../assets/OC/SHRINJAY.jpg";
 import Aadi from "../../assets/OC/Aadi.jpg";
 import Kesar from "../../assets/OC/Kesar.jpg"
+import Aadya from "../../assets/OC/Aadya.jpg"
 
 const Organizers = () => {
   const festIn = [
@@ -31,7 +32,7 @@ const Organizers = () => {
   ];
 
   const veteran = [
-    { name: "Aadya Sharma", course: "BBA.LLB (HONS)", year: "5TH YEAR", image: "", linkedin: "https://www.linkedin.com/in/aadya-sharma-130a27218/" },
+    { name: "Aadya Sharma", course: "BBA.LLB (HONS)", year: "5TH YEAR", image: Aadya, linkedin: "https://www.linkedin.com/in/aadya-sharma-130a27218/" },
     { name: "Atam Prakash Bajpai", course: "B.TECH (ECE)", year: "5TH YEAR", image: Atam, linkedin: "https://www.linkedin.com/in/atam-prakash-bajpai-67441a224/" },
     { name: "Ayushman Singh", course: "B.TECH (ECE)", year: "5TH YEAR", image: Ayushman, linkedin: "https://www.linkedin.com/in/ayushman-singh-413240195" },
     { name: "Deepika", course: "M.TECH", year: "5TH YEAR", image: Deepika, linkedin: "https://www.linkedin.com/in/deepika-singh-070957230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
