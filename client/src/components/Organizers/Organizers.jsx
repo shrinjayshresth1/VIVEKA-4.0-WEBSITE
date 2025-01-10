@@ -16,29 +16,30 @@ import Pragya from "../../assets/OC/pragya.jpeg";
 import Sankalp from "../../assets/OC/Sankalp.jpg";
 import Shrinjay from "../../assets/OC/SHRINJAY.jpg";
 import Aadi from "../../assets/OC/Aadi.jpg";
+import KesarRai from "../../assets/OC/Kesar.jpg"
 
 const Organizers = () => {
   const festIn = [
-    { name: "Dr. Veena Singh", course: "HoD & ASSOCIATE PROFESSOR", year: "IMCE & UNIVERSITY CLUB COORDINATOR", image: "/logo.png" },
+    { name: "Dr. Veena Singh", course: "HoD & ASSOCIATE PROFESSOR", year: "IMCE & UNIVERSITY CLUB COORDINATOR", image: "" },
   ];
 
   const facultyCon = [
-    { name: "Er. Abhishek Kumar Saxena", course: "ASSISTANT PROFESSOR - DEEE", image: "/logo.png", linkedin:"" },
-    { name: "Dr. Mrityunjay Rai", course: "ASSISTANT PROFESSOR - DEEE", image: "/logo.png" , linkedin:""},
-    { name: "Er. Sunny Kumar", course: "ASSISTANT PROFESSOR - DCSE", image: "/logo.png", linkedin:"" },
-    { name: "Er. Neeta Bhusal Sharma", course: "ASSISTANT PROFESSOR - DCSE", image: "/logo.png", linkedin:"" },
+    { name: "Er. Abhishek Kumar Saxena", course: "ASSISTANT PROFESSOR - DEEE", image: "", linkedin:"" },
+    { name: "Dr. Mrityunjay Rai", course: "ASSISTANT PROFESSOR - DEEE", image: "" , linkedin:""},
+    { name: "Er. Sunny Kumar", course: "ASSISTANT PROFESSOR - DCSE", image: "", linkedin:"" },
+    { name: "Er. Neeta Bhusal Sharma", course: "ASSISTANT PROFESSOR - DCSE", image: "", linkedin:"" },
   ];
 
   const veteran = [
-    { name: "Aadya Sharma", course: "BBA.LLB (HONS)", year: "5TH YEAR", image: "/logo.png", linkedin: "https://www.linkedin.com/in/aadya-sharma-130a27218/" },
+    { name: "Aadya Sharma", course: "BBA.LLB (HONS)", year: "5TH YEAR", image: "", linkedin: "https://www.linkedin.com/in/aadya-sharma-130a27218/" },
     { name: "Atam Prakash Bajpai", course: "B.TECH (ECE)", year: "5TH YEAR", image: Atam, linkedin: "https://www.linkedin.com/in/atam-prakash-bajpai-67441a224/" },
     { name: "Ayushman Singh", course: "B.TECH (ECE)", year: "5TH YEAR", image: Ayushman, linkedin: "" },
     { name: "Deepika", course: "M.TECH", year: "5TH YEAR", image: Deepika, linkedin: "" },
   ];
 
   const studentCon = [
-    { name: "Kesar Rai", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: "/logo.png" , linkedin: "https://www.linkedin.com/in/kesarrai/" },
-    { name: "Pranshu Agrahari", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: "/logo.png", linkedin: "https://www.linkedin.com/in/pranshu-agrahari-956a37288/" },
+    { name: "Kesar Rai", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: KesarRai, linkedin: "https://www.linkedin.com/in/kesarrai/" },
+    { name: "Pranshu Agrahari", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: "", linkedin: "https://www.linkedin.com/in/pranshu-agrahari-956a37288/" },
   ];
 
   const studentCoCon = [
