@@ -119,7 +119,22 @@ const Footer = () => {
             <div>
               <p className={classes.mail}>techfusionclub@srmu.ac.in</p>
             </div>
+            
           </div>
+          <div className={classes.footer_contact}>
+            <div>
+              <img
+                className={classes.footer_contact_image}
+                src="https://cdn-icons-png.flaticon.com/512/2867/2867439.png"
+                alt=""
+              />
+            </div>
+            <div>
+            <a href="https://drive.google.com/file/d/1joWLs_Xl9SN2XHaI10JuC9tbLu5xifst/view?usp=sharing" target="_blank" className={classes.mail}>Sponsorship</a>
+            </div>
+            
+          </div>
+          
         </div>
       </div>
       <div className={classes.footer_creator_div}>

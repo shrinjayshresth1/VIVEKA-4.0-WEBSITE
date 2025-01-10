@@ -109,6 +109,16 @@
 .footer_grabbit_image {
   height: 50px;
 }
+.footer_contact a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer_contact a:hover {
+  color: aqua;
+}
+
 
 @media (max-width: 500px) {
   .footer {
@@ -156,4 +166,8 @@
   .mail {
     font-size: 12px;
   }
+  .footer_contact a {
+    cursor: pointer;
+  }
+  
 }
