@@ -3,15 +3,20 @@ import About from "../components/About/About";
 import Contact from "../components/Contact/Contact";
 import Hero from "../components/Hero/Hero";
 import ReactGA from "react-ga";
+import Gallery from "../components/Gallery/Gallery.jsx";
+
 
 const Homepage = () => {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname);
-  });
+  }, []);
+
   return (
     <>
       <Hero />
+      
       <About />
+      <Gallery />
       <Contact />
     </>
   );
