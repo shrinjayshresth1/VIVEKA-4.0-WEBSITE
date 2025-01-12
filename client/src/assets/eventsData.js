@@ -60,6 +60,7 @@ export const eventsData = [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLScoc2Ps14RxFXQ8aZ1FceSCe-d5K_bKk-pNQ5OThZ5gzFNv4Q/viewform",
+    rl: "https://drive.google.com/file/d/11PADK1bYMLOGB-nP0ogXigjYJOdfAe_i/view?usp=drive_link"
   },
   {
     id: 2,
@@ -92,6 +93,7 @@ export const eventsData = [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdUo_TQINm6GQFLR5GMOOCGmOlhyoevXLNU475Dcsm3SeiSkA/viewform",
+    rl:"https://drive.google.com/file/d/14FZNhut9V8pCoxcVf7fjmbAPynWXqHw-/view?usp=drive_link"
   },
   {
     id: 3,
@@ -125,6 +127,7 @@ export const eventsData = [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfd1SJgKLROLYWtOh_9k_CTEfiMzwtSGPxbuTJRHFKEFCGyqg/viewform",
+    rl:"https://drive.google.com/file/d/1bR-31FLNPk9u_KCyno5v8rzNa9zfdA9v/view?usp=drive_link"
   },
   {
     id: 4,
@@ -159,6 +162,7 @@ export const eventsData = [
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf2TD5LoEUexvHkwpVcS22hKjAEmOsyt22Dgn6hK6cUX9p5ZQ/viewform",
     onSpot: "",
+    rl:"https://drive.google.com/file/d/12siKg9nPEuLRdAgwb6Ccw1YXsP33N004/view?usp=drive_link"
   },
   {
     id: 5,
@@ -192,6 +196,7 @@ export const eventsData = [
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf3s_WqKJrFTTXcfDE6uc5EpdCGdTV5x0Og4CC9lSddRGAAKQ/viewform",
     onSpot: "",
+    rl:"https://drive.google.com/file/d/1QM-LOsfhWnskqa44ELx_5YMRfi-7W6MC/view?usp=drive_link",
   },
   {
     id: 6,
@@ -233,6 +238,7 @@ export const eventsData = [
       "Teams can bring their own Robots or can use the robots provided by the Event Organisers to participate in the event.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeUNy5TJ3wjHwc9sltW3fEmmCkOXr4h1bLqQbylccgFy1FIKA/viewform",
+    rl:"https://drive.google.com/file/d/1xcjSlKHtVyU51-ycdbhp25527NbWzRNx/view?usp=drive_link",
   },
   {
     id: 7,
@@ -277,6 +283,7 @@ export const eventsData = [
       
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeoPSEApFsAEUxiP9eX0iqv0ChJh58Ke_aROJlAtckuGgsxPQ/viewform",
+    rl:"https://drive.google.com/file/d/1JdkXgHR3JMIHd5B8ALVCI5wQLLVX-0g1/view?usp=drive_link"
   },
   {
  
@@ -304,6 +311,7 @@ export const eventsData = [
     date: "6th February , 2025",
     note: ["Hardcopy certificates will be awarded only to the winners. All otherparticipants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeL3ITddNL2kCzqSOBbYkuTCcNHJV0DZpWlUxAcnDliETN7Og/viewform",
+    rl:"https://drive.google.com/file/d/16rwEtVSlcLW6xNIleFcEIXFJSFwee-TF/view?usp=drive_link",
   },
   {
     id: 9,
@@ -345,6 +353,7 @@ export const eventsData = [
 
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeLpJmm7mUpiuRxFZ_xYxloI6xX8oXrY_5lVdW-iSTu_NPdgA/viewform",
+    rl:"https://drive.google.com/file/d/1lgy2Ylk6NdmW8vcPD5iE2NSCEWK8Jp4c/view?usp=drive_link",
   },
   {
     id: 10,
@@ -380,6 +389,7 @@ export const eventsData = [
      
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLScb7WGWFHQHYZb3N7Rko-Pvwt_m_0ChJvwzQNZrGraKRHOzlQ/viewform",
+    rl:"https://drive.google.com/file/d/1A57thBVRD04J_ozDYQvbf2-ja-uLIaaw/view?usp=drive_link",
   },
   {
     id: 11,
@@ -411,6 +421,7 @@ export const eventsData = [
      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates",
     ],
     link: "",
+    rl:"https://drive.google.com/file/d/1KaBrez1rTAHHcjOkcUO68Fd8oQVMQ6_K/view?usp=drive_link",
   },
   {
     id: 12,
@@ -439,6 +450,7 @@ export const eventsData = [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfRpaXI_dFCKPMX4l1UVrY5Mff0Q_4qOicbQg8zjyOIBQGZiw/viewform",
+    rl:"https://drive.google.com/file/d/14jiYOQTds6AGNfqMw44Z9Aprbbq6QtGw/view?usp=drive_link",
   },
   {
     id: 13,
@@ -473,6 +485,7 @@ export const eventsData = [
     date: "8th February , 2025",
     note: ["Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLScFh-nNrVyHZ6z3qydVIDa7COxgy-z-Q9RkdO_4KGD1aB351w/viewform",
+    rl:"https://drive.google.com/file/d/1X3QWT64a2cNBOMS_o4hqCZ4wP4j9eWy0/view?usp=drive_link",
   },
   {
     id: 14,
@@ -493,6 +506,7 @@ export const eventsData = [
       "Teams can also register at the venue on the day of the event at least an hour prior to the event.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf_keYfwx-wJqQaVi-ZnADoJ27mXgKYN6uPoFewCf_qH9EmUQ/viewform",
+    rl:"https://drive.google.com/file/d/1U07feQQWlbbUCM4B-LC3TVzY1nFgBr9f/view?usp=drive_link",
   },
   {
     id: 15,
@@ -516,6 +530,7 @@ export const eventsData = [
     date: "6th february , 2025",
     note: ["Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSe_kaVqe0ANap8yIQtpR1nVVGcEJdoHBzM3DGnaOdCH3mMGZg/viewform",
+    rl:"https://drive.google.com/file/d/14NZT9kiOsJikueIyMm8_AfSThG30UWFK/view?usp=drive_link",
     // onSpot: "true",
   },
   {
@@ -546,6 +561,7 @@ export const eventsData = [
       "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates."
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdedAQ02ik7j8hYl4uv0Vo-v_hVVpfxNmzIJhufCofE1Wh2PA/viewform",
+    rl:"https://drive.google.com/file/d/1iap9YL9IqaBix_tg5UJ7hSExzS8iEwnM/view?usp=drive_link",
   },
   {
     id: 17,
@@ -572,6 +588,7 @@ export const eventsData = [
     date: "06 February , 2025",
     note: ["Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfwxl8_YrrmendHIFHib1_n-cciBQSivonOKAzjuRQiB3V5Fw/viewform",
+    rl:"https://drive.google.com/file/d/1WInAxxB1XUrUrgbB_xbMmrRPUXTBw51w/view?usp=drive_link",
   },
   {
     id: 18,
@@ -598,6 +615,7 @@ export const eventsData = [
     date: "To be announced",
     note: ["Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdCAs1yLabxE50hed9v7QGFYuwuDABt4AhGpEBlRpzAzCnCbw/viewform",
+    rl:"https://drive.google.com/file/d/1sxtT63J8qI9b24nYQRHAKIROract7eGJ/view?usp=drive_link",
   },
 
 ];

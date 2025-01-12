@@ -144,3 +144,24 @@
   color: #ff32ad;
   font-size: 20px;
 }
+.registerContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a{
+    text-decoration: none;
+    font-size: larger;
+    font-size: 17px;
+    
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+}
+.rulebook{
+  margin-top: 3rem;
+  transition: color 0.1s ease-in-out;
+}
+.rulebook:hover{
+  color: #00ff75;
+}
