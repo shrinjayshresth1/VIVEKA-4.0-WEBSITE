@@ -21,14 +21,44 @@ import Aadya from "../../assets/OC/Aadya.jpg"
 
 const Organizers = () => {
   const festIn = [
-    { name: "Dr. Veena Singh", course: "HoD & ASSOCIATE PROFESSOR", year: "IMCE & UNIVERSITY CLUB COORDINATOR", image: "" },
+    {
+      name: "Dr. Veena Singh",
+      course: "HoD & ASSOCIATE PROFESSOR",
+      year: "IMCE & UNIVERSITY CLUB COORDINATOR",
+      image:
+        "https://media.licdn.com/dms/image/v2/C5603AQGzqTRu2zGEwQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1608385269429?e=1742428800&v=beta&t=W_yr0aIG3172JulJzx98wWrThC_g4ZEqEP4VyYHg2sw",
+    },
   ];
 
   const facultyCon = [
-    { name: "Er. Abhishek Kumar Saxena", course: "ASSISTANT PROFESSOR - DEEE", image: "", linkedin:"" },
-    { name: "Dr. Mrityunjay Rai", course: "ASSISTANT PROFESSOR - DEEE", image: "" , linkedin:""},
-    { name: "Er. Sunny Kumar", course: "ASSISTANT PROFESSOR - DCSE", image: "", linkedin:"" },
-    { name: "Er. Neeta Bhusal Sharma", course: "ASSISTANT PROFESSOR - DCSE", image: "", linkedin:"" },
+    {
+      name: "Er. Abhishek Kumar Saxena",
+      course: "ASSISTANT PROFESSOR - DEEE",
+      image:
+        "https://media.licdn.com/dms/image/v2/D4D03AQGG-DMrNE5LWg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1669641758444?e=1742428800&v=beta&t=0C8-zUqYWU66fWwpGUZZcdpB6-wVvzu05Upp5vDhDqU",
+      linkedin: "https://www.linkedin.com/in/abhishek-kumar-saxena-80a51111a/",
+    },
+    {
+      name: "Dr. Mrityunjay Rai",
+      course: "ASSISTANT PROFESSOR - DEEE",
+      image:
+        "https://media.licdn.com/dms/image/v2/D4D03AQHwYGPh-YvESQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1686678021631?e=1742428800&v=beta&t=V_PYfqC9pjbRSKu3P64JqAIPh255RlT18M4zpz9r0Yg",
+      linkedin: "https://www.linkedin.com/in/dr-mritunjay-rai-36b85118/",
+    },
+    {
+      name: "Er. Sunny Kumar",
+      course: "ASSISTANT PROFESSOR - DCSE",
+      image:
+        "https://srmu.ac.in/storage/teams/11zon-cropped-5-11zon-23022411165423.jpeg",
+      linkedin: "https://www.linkedin.com/in/sunny-kumar-a7910b234/",
+    },
+    {
+      name: "Er. Neeta Bhusal Sharma",
+      course: "ASSISTANT PROFESSOR - DCSE",
+      image:
+        "https://srmu.ac.in/storage/teams/11zon-cropped-2-11zon-23022410512735.jpeg",
+      linkedin: "https://www.linkedin.com/in/neeta-bhusal-13708037/",
+    },
   ];
 
   const veteran = [
@@ -39,8 +69,21 @@ const Organizers = () => {
   ];
 
   const studentCon = [
-    { name: "Kesar Rai", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: Kesar , linkedin: "https://www.linkedin.com/in/kesarrai/" },
-    { name: "Pranshu Agrahari", course: "B.TECH CSE (DS+AI)", year: "3RD YEAR", image: "", linkedin: "https://www.linkedin.com/in/pranshu-agrahari-956a37288/" },
+    {
+      name: "Kesar Rai",
+      course: "B.TECH CSE (DS+AI)",
+      year: "3RD YEAR",
+      image: Kesar,
+      linkedin: "https://www.linkedin.com/in/kesarrai/",
+    },
+    {
+      name: "Pranshu Agrahari",
+      course: "B.TECH CSE (DS+AI)",
+      year: "3RD YEAR",
+      image:
+        "https://media.licdn.com/dms/image/v2/D4E03AQH5OKNHCbc-bA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1692424678861?e=1742428800&v=beta&t=KKuEjL5zok6Sd-_5QoDfGDKvPUtjwHst6DKJDUQ8Kxw",
+      linkedin: "",
+    },
   ];
 
   const studentCoCon = [
@@ -54,7 +97,7 @@ const Organizers = () => {
   const webOps = [
     { name: "Sankalp Jaiswal", course: "B.TECH CSE (DS+AI)", image: Sankalp, linkedin: "https://www.linkedin.com/in/sankalp-jaiswal-413404257/" },
     { name: "Kushagra Chaturvedi", course: "B.TECH CSE (DS+AI)", image: Kushagra, linkedin: "https://www.linkedin.com/in/kushagra-chaturvedi" },
-    { name: "Shrinjay Shresth", course: "B.TECH CSE (DS+AI)", image: Shrinjay, linkedin: "https://www.linkedin.com/in/shrinjay-shresth-036010215/" },
+    { name: "Shrinjay Shresth", course: "B.TECH CSE ", image: Shrinjay, linkedin: "https://www.linkedin.com/in/shrinjay-shresth-036010215/" },
   ];
 
   const renderCarousel = (data) => {
@@ -94,32 +137,32 @@ const Organizers = () => {
 
   return (
     <section id="organizers" className="ocContainer">
-      <div className={classes.ocSec}>
+      <div className={classes.ocSec} style={{ textAlign: "center" }}>
         <h2 className={classes.heading}>Fest Incharge</h2>
         {renderCarousel(festIn)}
       </div>
 
-      <div className={classes.ocSec}>
+      <div className={classes.ocSec} style={{ textAlign: "center" }}>
         <h2 className={classes.heading}>Faculty Convener</h2>
         {renderCarousel(facultyCon)}
       </div>
 
-      <div className={classes.ocSec}>
+      <div className={classes.ocSec} style={{ textAlign: "center" }}>
         <h2 className={classes.heading}>Veteran Conveners</h2>
         {renderCarousel(veteran)}
       </div>
 
-      <div className={classes.ocSec}>
+      <div className={classes.ocSec} style={{ textAlign: "center" }}>
         <h2 className={classes.heading}>Student Conveners</h2>
         {renderCarousel(studentCon)}
       </div>
 
-      <div className={classes.ocSec}>
+      <div className={classes.ocSec} style={{ textAlign: "center" }}>
         <h2 className={classes.heading}>Student Co-Conveners</h2>
         {renderCarousel(studentCoCon)}
       </div>
 
-      <div className={classes.ocSec}>
+      <div className={classes.ocSec} style={{ textAlign: "center" }}>
         <h2 className={classes.heading}>WebOps Team</h2>
         {renderCarousel(webOps)}
       </div>

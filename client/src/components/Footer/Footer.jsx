@@ -23,7 +23,7 @@ const Footer = () => {
               <img
                 className={classes.footer_sambhav_image}
                 src={vivekaLogo}
-                alt="sambhavLogo"
+                alt="vivekaLogo"
               ></img>
             </div>
             <div>
@@ -74,14 +74,16 @@ const Footer = () => {
           </div>
         </div>
         
-        {/* <div className={classes.footer}second'>
-          <h2 className={classes.footer}menu-heading'>Menu</h2>
-          <h6 className={classes.footer}page-link'>About US</h6>
-          <h6 className={classes.footer}page-link'>Term of Use</h6>
-          <h6 className={classes.footer}page-link'>Privary Policy</h6>
-          <h6 className={classes.footer}page-link'>Order History</h6>
-          <h6 className={classes.footer}page-link'>Return policy</h6>
-        </div> */}
+        <div className={classes.footer_second}>
+          <h2 className={classes.footer_menu_heading}>Menu</h2>
+          <h6 className={classes.footer_page_link} onClick={() => window.scrollTo({ top: document.getElementById('about').offsetTop, behavior: 'smooth' })}>
+            About Us
+          </h6>
+          <h6 className={classes.footer_page_link}>Term of Use</h6>
+          <h6 className={classes.footer_page_link}>Privacy Policy</h6>
+          
+          
+        </div>
         <div className={classes.footer_third}>
           <h2 className={classes.footer_menu_heading}>Contact Us</h2>
           <div className={classes.footer_contact}>
@@ -139,14 +141,14 @@ const Footer = () => {
       </div>
       <div className={classes.footer_creator_div}>
         <h4 className={classes.footer_creator}>
-          Website designed and developed by{" "}
+          Website Developed by{" "}
           <a
             href={shrinjayurl}
             target="_blank"
             rel="noopener noreferrer"
             className={classes.footer_a_link}
           >
-            @Shrinjay Shresth
+            Shrinjay Shresth
           </a>{" "}
           ,{" "}
           <a
@@ -156,7 +158,7 @@ const Footer = () => {
             className={classes.footer_a_link}
           >
             {" "}
-            @Kushagra Chaturvedi
+            Kushagra Chaturvedi
           </a>{" "}
           and{" "}
           <a
@@ -166,7 +168,7 @@ const Footer = () => {
             className={classes.footer_a_link}
           >
             {" "}
-            @Sankalp Jaiswal
+            Sankalp Jaiswal
           </a>{" "}
         </h4>
       </div>
