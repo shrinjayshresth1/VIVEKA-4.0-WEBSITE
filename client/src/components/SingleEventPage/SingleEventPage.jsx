@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./SingleEventPage.module.css";
 // import sample from "../../assets/Events/sample.jpeg";
 import Button from "../common/Button/Button";
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import { eventsData } from "../../assets/eventsData";
 
 const SingleEventPage = () => {
@@ -25,6 +25,7 @@ const SingleEventPage = () => {
     link,
     onSpot,
     disqualification,
+    rl
   } = requiredEvent;
 
   return (
@@ -119,7 +120,8 @@ const SingleEventPage = () => {
                 })}
               </div>
             )}
-            {link !== "" ? (
+            <div className={classes.registerContainer}>
+              {link !== "" ? (
               <Button hrefLink={link} label="Register" />
             ) : onSpot !== "" ? (
               <p className={classes.soon}>
@@ -128,6 +130,11 @@ const SingleEventPage = () => {
             ) : (
               <p className={classes.soon}>Registration will be open soon.</p>
             )}
+            <NavLink to={rl} target="_blank" className={classes.rulebook}>
+              View Rulebook <span>&rarr;</span>
+            </NavLink>
+            </div>
+            
           </div>
         </div>
       </div>
