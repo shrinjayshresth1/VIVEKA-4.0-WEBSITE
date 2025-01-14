@@ -132,7 +132,7 @@ const Footer = () => {
               />
             </div>
             <div>
-            <a href="https://drive.google.com/file/d/1joWLs_Xl9SN2XHaI10JuC9tbLu5xifst/view?usp=sharing" target="_blank" className={classes.mail}>Sponsorship</a>
+            <a href="https://drive.google.com/file/d/1joWLs_Xl9SN2XHaI10JuC9tbLu5xifst/view?usp=sharing" target="_blank" className={classes.mail}>Interested in Sponsorship ?</a>
             </div>
             
           </div>
