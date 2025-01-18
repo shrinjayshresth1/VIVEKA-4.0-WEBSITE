@@ -114,7 +114,7 @@ const Navbar = () => {
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <Link to={'/contact'}>Contact</Link>
-                Contact
+                
               </Drop>
             </li>
           </ul>
