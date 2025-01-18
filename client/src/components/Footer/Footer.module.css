@@ -30,11 +30,17 @@
   color: hwb(0 100% 0%);
   font-size: 1.5rem;
 }
-.footer_second {
+/* .footer_second {
   width: 32%;
   align-self: flex-start;
   margin-top: 3rem;
   padding-left: 10rem;
+} */
+.footer_second {
+  width: 29%;
+  text-align: left;
+  align-self: flex-start;
+  margin-top: 5rem;
 }
 
 .footer_page_link {
@@ -59,6 +65,8 @@
 .footer_third {
   width: 29%;
   text-align: left;
+  align-self: flex-start;
+  margin-top: 5rem;
 }
 .footer_creator_div {
   text-align: center;
@@ -146,12 +154,12 @@
     font-size: 1.2rem;
   }
   .footer_second {
-    width: 80%;
+    width: 100%;
     margin: 20px 0px;
     text-align: center;
   }
   .footer_third {
-    width: 80%;
+    width: 100%;
   }
   .footer_menu_heading {
     text-align: center;
@@ -176,5 +184,6 @@
   .footer_contact a {
     cursor: pointer;
   }
+  
   
 }
