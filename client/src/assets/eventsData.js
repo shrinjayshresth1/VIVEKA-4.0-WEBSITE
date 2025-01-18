@@ -1,6 +1,8 @@
 import bgmi from "./Events/bgmi.png";
+import AI from "./Events/AI.jpg"
+import Network from "./Events/Network.jpg"
 import FindTheLanguage from "./Events/find the language.png";
-
+import Bug from "./Events/Bug.jpg"
 import RoboRace from "./Events/robo DAUD.png";
 
 import RoboSoccer from "./Events/robo FOOTBALL.png";
@@ -34,7 +36,7 @@ export const eventsData = [
     image: bgmi,
     name: "BGMI",
     description:
-      "Enter the battlegrounds with your 4-man squad in an intense BGMI tournament. Compete in a 64-player lobby, starting with a 2-map group stage featuring an Erangel-Livik combo. Top teams from the Classic Maps will face off in ARENA TDM (4v4, 1v1, 2v2, or 3v3) based on qualifications.",
+      "Enter the battlegrounds with your 4-man squad in an intense BGMI tournament. Compete in a 64-player lobby, starting with a 2-map group stage featuring an Erangel-Livik combo.\n \nTop teams from the Classic Maps will face off in ARENA TDM (4v4, 1v1, 2v2, or 3v3) based on qualifications.",
     rules: [
       "Only Android/iOS devices are allowed; no tablets.",
       "Organizers are not responsible for participants’ connectivity issues.",
@@ -47,17 +49,17 @@ export const eventsData = [
     prizes: ["Prize Money + Exciting Rewards.",
       "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
       "Participation Certificates by IEEE and CIIE for all participants.",],
-    team: "1-4",
+    team: "Team of max 4 members",
     fees: "₹200 per team",
     contactInfo: [
       "Santosh Pandey : 9580336086",
       "Dhruv Pathak : ",
       "Pratham Mishra : ",
     ],
-    location: "Online",
-    date: "To be announced!",
+    location: "Online & B2-305 for Finals Only",
+    date: "07th February , 2025 ",
     note: [
-      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
+      "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLScoc2Ps14RxFXQ8aZ1FceSCe-d5K_bKk-pNQ5OThZ5gzFNv4Q/viewform",
     rl: "https://drive.google.com/file/d/11PADK1bYMLOGB-nP0ogXigjYJOdfAe_i/view?usp=drive_link"
@@ -67,7 +69,7 @@ export const eventsData = [
     image: freefire,
     name: "Free Fire",
     description:
-      "Compete in a high-octane Free Fire tournament featuring 4-man squads in a 48-player lobby. Battle across three iconic maps—Bermuda, Purgatory, and Kalahari—in the group stage, with top runners-up advancing to the Clash Squad final on classic maps.",
+      "Compete in a high-octane Free Fire tournament featuring 4-man squads in a 48-player lobby.\n \nBattle across three iconic maps—Bermuda, Purgatory, and Kalahari—in the group stage, with top runners-up advancing to the Clash Squad final on classic maps.",
     rules: [
       "Failure to join the room on time results in 0 points.",
       "No gun skins or properties are allowed.",
@@ -87,10 +89,10 @@ export const eventsData = [
       "Ayush Yadav : 7084297850 ",
       "Mohd Tabish Khan : 95194931113",
     ],
-    location: "To be announced!",
-    date: "To be announced!",
+    location: "B2 - 305 (Only for Finals) ",
+    date: "06th February , 2025 ",
     note: [
-      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
+      "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdUo_TQINm6GQFLR5GMOOCGmOlhyoevXLNU475Dcsm3SeiSkA/viewform",
     rl:"https://drive.google.com/file/d/14FZNhut9V8pCoxcVf7fjmbAPynWXqHw-/view?usp=drive_link"
@@ -121,10 +123,10 @@ export const eventsData = [
       "Pragya Sharma : 6387543491",
       "Haider Ali : 7388190105"
     ],
-    location: "B2/Computer Labs",
-    date: "To be announced!",
+    location: "B2 Ground Floor - Computer Labs",
+    date: "06th February , 2025 at 11:00 AM",
     note: [
-      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
+      "Hardcopy certificates will be awarded only to the winners.\n All other participants will receive softcopy certificates.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfd1SJgKLROLYWtOh_9k_CTEfiMzwtSGPxbuTJRHFKEFCGyqg/viewform",
     rl:"https://drive.google.com/file/d/1bR-31FLNPk9u_KCyno5v8rzNa9zfdA9v/view?usp=drive_link"
@@ -134,7 +136,7 @@ export const eventsData = [
     image: FindTheLanguage,
     name: "Find The Language",
     description:
-      "Showcase your programming knowledge in this fast-paced competition! Participants will test their skills in identifying programming language syntax under strict time limits. Challenge yourself and compete against the best to win exciting rewards.",
+      "Showcase your programming knowledge in this fast-paced competition!\n Participants will test their skills in identifying programming language syntax under strict time limits.\n Challenge yourself and compete against the best to win exciting rewards.",
     rules: [
       "Participants must report 30 minutes before the event starts at the reporting desk.",
       "College ID or proof of identity is mandatory.",
@@ -153,12 +155,12 @@ export const eventsData = [
     contactInfo: [
       "Priyanshi Srivastava : 8687968902",
       "Anjali Srivastava : 8601438889",
-      "Satyam Patel : 9005740363",
+      "Ansh Kumar Singh : ",
     ],
-    location: "To be announced!",
-    date: "To be announced!",
+    location: "B2 - Computer Labs",
+    date: "08th February , 2025 at 11:00 AM",
     note: [
-      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
+      "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf2TD5LoEUexvHkwpVcS22hKjAEmOsyt22Dgn6hK6cUX9p5ZQ/viewform",
     onSpot: "",
@@ -169,7 +171,7 @@ export const eventsData = [
     image: Hackathon,
     name: "Hack-a-thon",
     description:
-      "Welcome to the Hackathon event as part of Viveka 4.0 – the Techfest of Shri Ramswaroop Memorial University! This competition is designed to bring out the creativity, innovation, and problem solving skills of participants across both school and college levels.",
+      "Welcome to the Hackathon event as part of Viveka 4.0 – the Techfest of Shri Ramswaroop Memorial University!\n \nThis competition is designed to bring out the creativity, innovation, and problem solving skills of participants across both school and college levels.",
     rules: [
       "Teams must register before the specified deadline. Teams must provide all required information during registration.",
       "All ideas and projects must align with the problem statements. Plagiarized content will lead to disqualification. Projects must include a working demo.",
@@ -182,21 +184,21 @@ export const eventsData = [
       "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
       "Participation Certificates by IEEE and CIIE for all participants.",
     ],
-    team: "Team of 1-4 members for University Students and individual for School Students",
-    fees: "School Entry Fees : ₹ 100 : : University Entry Fees : ₹ 200",
+    team: "Individual for School Students and Team of 4 members for University Student",
+    fees: " ₹ 100 /- for School Students and ₹ 200 for University Students",
     contactInfo: [
       "Shrinjay Shresth  :  9334916387",
       "Mohd Tabish Khan : 95194931113",
       "Aditya Gupta : 8303420320 ",
     ],
-    location: "To be announced!",
-    date: "8th February, 2025",
+    location: "B2 - 305",
+    date: "06th February, 2025 at 11:00 AM",
     note: [
-      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
+      "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates.",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf3s_WqKJrFTTXcfDE6uc5EpdCGdTV5x0Og4CC9lSddRGAAKQ/viewform",
     onSpot: "",
-    rl:"https://drive.google.com/file/d/1QM-LOsfhWnskqa44ELx_5YMRfi-7W6MC/view?usp=drive_link",
+    rl:"https://drive.google.com/file/d/1SUKDqed8jPiPM2r51wqTOoTet4rDCy1c/view?usp=sharing",
   },
   {
     id: 6,
@@ -224,18 +226,19 @@ export const eventsData = [
       "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
       "Participation Certificates by IEEE and CIIE for all participants.",
     ],
-    team: "Team of MAX 3 Members(From Same Institution)",
-    fees: "₹100 per team",
+    team: "School  : Team of Max 2 members\n \nUniversity : Team of Max 3 members ",
+    
+    fees: "School : ₹100 per team\n \nUniversity : ₹150 per team",
     contactInfo: [
       "Kushagra Chaturvedi : 8882304190",
       "Nirbhay Singh : 7318336266",
       "Shiv Mangalam Dubey : 9151702366",
     ],
-    location: "To be announced!",
-    date: "6th February,2025",
+    location: "BBC Ground",
+    date: "06th & 07th February , 2025 at 11:00 AM",
     note: [
-      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
-      "Teams can bring their own Robots or can use the robots provided by the Event Organisers to participate in the event.",
+      "Hardcopy certificates will be awarded only to the winners.\n \nMember can bring their own bot as well as can you use bots provided by University." 
+      
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeUNy5TJ3wjHwc9sltW3fEmmCkOXr4h1bLqQbylccgFy1FIKA/viewform",
     rl:"https://drive.google.com/file/d/1xcjSlKHtVyU51-ycdbhp25527NbWzRNx/view?usp=drive_link",
@@ -269,17 +272,18 @@ export const eventsData = [
       "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
       "Participation Certificates by IEEE and CIIE for all participants.",
     ],
-    team: "Team of MAX 2 members(From the same institution).",
-    fees: "₹ 100 per team.",
+    team: "School  : Team of Max 2 members\n \nUniversity : Team of Max 3 members ",
+    
+    fees: "School : ₹100 per team\n \nUniversity : ₹150 per team",
     contactInfo: [
       "Aadi Chandra : 9335402749 ",
       "Yash Mishra : 6306974406 ",
       "Shreshth Sharma : 8840414915 ",
     ],
-    location: "To be announced!",
-    date: "6th february,2025",
+    location: "BBC Ground",
+    date: "06th & 07th February , 2025 at 11:00 AM",
     note: [
-      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates.",
+      "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates.",
       
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeoPSEApFsAEUxiP9eX0iqv0ChJh58Ke_aROJlAtckuGgsxPQ/viewform",
@@ -291,7 +295,7 @@ export const eventsData = [
     image: PathFinder,
     name: "Path Finder : Robot",
     description:
-      "Dive into the world of robotics with Mesmerize, an exhilarating competition where innovation meets precision! In this event, teams will design and build an autonomous bot capable of navigating a maze by following white lines, analyzing paths, and reaching the endpoint in record time.",
+      "Dive into the world of robotics with Mesmerize, an exhilarating competition where innovation meets precision! In this event.\n \nTeams will design and build an autonomous bot capable of navigating a maze by following white lines, analyzing paths, and reaching the endpoint in record time.",
     rules: [
       "Maximum 3 persons are allowed in a team.",
       "Each team must build an autonomous robot capable of following a white lineand analyzing the path in the maze. ",
@@ -307,9 +311,9 @@ export const eventsData = [
     team: "Team of MAX 3 members(From the same institution)",
     fees: "₹150 per team",
     contactInfo: [" Nitin Jaiswal : 8765610216","Anshu Kasaudhan : 7068339541", "Om Jaiswal : 7068339541"],
-    location: "To Be Announced",
-    date: "6th February , 2025",
-    note: ["Hardcopy certificates will be awarded only to the winners. All otherparticipants will receive softcopy certificates."],
+    location: "B1 - 310",
+    date: "07th February , 2025 at 11:00 AM",
+    note: ["Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeL3ITddNL2kCzqSOBbYkuTCcNHJV0DZpWlUxAcnDliETN7Og/viewform",
     rl:"https://drive.google.com/file/d/16rwEtVSlcLW6xNIleFcEIXFJSFwee-TF/view?usp=drive_link",
   },
@@ -318,7 +322,7 @@ export const eventsData = [
     image: RoboWar,
     name: "Robo War",
     description:
-      "Prepare for an electrifying faceoff in Mini War, a knockout competition that pits mini bots against each other in a highintensity war arena! Bring your ustom-built bot to battle it out or glory, strategy, and echanical supremacy.  let your innovation and engineering skills shine in this thrilling event.",
+      "Prepare for an electrifying faceoff in Mini War, a knockout competition that pits mini bots against each other in a highintensity war arena!\n \nBring your custom-built bot to battle it out or glory, strategy, and mechanical supremacy.  Let your innovation and engineering skills shine in this thrilling event.",
     rules: [
       "The competition will be a knockout event held in a war arena.",
       "Each team must bring their own robot for the competition.",
@@ -341,17 +345,16 @@ export const eventsData = [
     team: "Team of MAX 4 members(From the same institution)",
     fees: "₹250 per team",
     contactInfo: [
-      "Shashank Kumar : 6306569583",
+      "Pragya Sharma : 6387543491",
       "Gautam Sharma : 9135256579",
       "Dhruv Pathak : 8604440669 ",
     ],
-    location: "To be announced",
-    date: "7th February , 2025",
-    note: ["Hardcopy certificates will be awarded only to the winners. All otherparticipants will receive softcopy certificates.",
-      "The organisers reserve the right to change any or all of the above rules as they deem fit; Change in rules, if any, will be highlighted on the website and notified to the registered teams.",
+    location: "BBC Ground",
+    date: "7th February , 2025 at 11:00 AM",
+    note:[ "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates.\n \nThe organisers reserve the right to change any or all of the above rules as they deem fit; Change in rules, if any, will be highlighted on the website and notified to the registered teams."
+    ]
 
-
-    ],
+    ,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeLpJmm7mUpiuRxFZ_xYxloI6xX8oXrY_5lVdW-iSTu_NPdgA/viewform",
     rl:"https://drive.google.com/file/d/1lgy2Ylk6NdmW8vcPD5iE2NSCEWK8Jp4c/view?usp=drive_link",
   },
@@ -360,12 +363,12 @@ export const eventsData = [
     image: DroneRace,
     name: "Drone Race",
     description: [
-      "Take to the skies in the exhilarating Drone Race! This highspeed,action-packed vent challenges participants to race their drones through a complex obstacle course, testing their piloting skills, precision, and speed. Whether you're an experienced drone racer or a beginner, this event offers the ultimate test of your aerial abilities!",
+      "Take to the skies in the exhilarating Drone Race! This highspeed,action-packed event challenges participants to race their drones through a complex obstacle course, testing their piloting skills, precision, and speed. Whether you're an experienced drone racer or a beginner, this event offers the ultimate test of your aerial abilities!",
     ],
     rules: [
       "Complete 2 laps on an obstacle-filled track.",
       "Checkpoints are mandatory; missing one adds a 10-second penalty.",
-      "No intentional collisions; violators will be disqualified.",
+      "No intentional collisions :  violators will be disqualified.",
       "Crashed drones can relaunch from the last checkpoint without pausing the timer.",
       "Pilots must contain all equipment and airframes within the pilot pit area and must not solder, weld or cause any spark within the pit area.",
       "There is no restriction on the use of any frame material or specification of the BLDC Motors, Electronic Speed Controllers, Propellers, Batteries.",
@@ -373,16 +376,16 @@ export const eventsData = [
       "Run Time: Run time starts as soon as the game clock starts/the drone takes/off and stops when the drone lands successfully."
     ],
     
-    prizes: [
-      "Hardcopy certificates will be awarded only to the winners. All otherparticipants will receive softcopy certificates.",
-      ,
+    prizes: 
+      ["Hardcopy certificates will be awarded only to the winners.","All otherparticipants will receive softcopy certificates.",
+      ],
 
-    ],
+    
     team: "Team of MAX 4 members with same institution",
     fees: "₹200 per team",
     contactInfo: ["Kshitij Gupta : 9455813610", "Shubham Tiwari :  8081766693", "Utkarsh Singh : 8756506613"],
-    location: "To be announced",
-    date: "6th February , 2025",
+    location: "Cricket Ground",
+    date: "07th February , 2025 at 11:00 AM",
     note: [
       "The organisers reserve the right to change any or all of the above rules as they deem fit; Change in rules, if any, will be highlighted on the website and notified to the registered teams."  
       
@@ -396,7 +399,7 @@ export const eventsData = [
     image: Structomania,
     name: "Structomania",
     description: [
-      "Step into Structromania, a unique competition where teams design and build wooden structures using limited materials like sticks, threads, and glue. Test your innovation, teamwork, and problem-solving as you create a structure that holds the maximum weight before breaking.",
+      "Step into Structromania, a unique competition where teams design and build wooden structures using limited materials like sticks, threads, and glue.\n \nTest your innovation, teamwork, and problem-solving as you create a structure that holds the maximum weight before breaking.",
     ],
     rules: [
       "The structure must be built using only the provided wooden sticks andthread.",
@@ -414,11 +417,11 @@ export const eventsData = [
     ],
     team: "Team of MAX 4 members with same institution",
     fees: "₹ 120 per person",
-    contactInfo: ["Agrim Mishra: 9369236427", "Sabhyata Singh : ", "Shiva Sharma : ","Isha Singh : 9305139337"],
-    location: "To be announced",
-    date: "7th February , 2025",
+    contactInfo: ["Agrim Mishra : 9369236427", "Abhinav Pratap Singh : ", "Isha Singh : 9305139337"],
+    location: "B5 - Ground Floor",
+    date: "08th February , 2025 at 11:00 AM",
     note: [
-     "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates",
+     "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates",
     ],
     link: "",
     rl:"https://drive.google.com/file/d/1KaBrez1rTAHHcjOkcUO68Fd8oQVMQ6_K/view?usp=drive_link",
@@ -428,7 +431,7 @@ export const eventsData = [
     image: RecallOTune,
     name: "Recall-O-Tune",
     description:
-      "Challenge your memory and reasoning skills in this exciting event filled with funand intellectual puzzles! Participants will identify logos (University, company, or government organization) and solve puzzles digitally in the shortest possibletime.",
+      "Challenge your memory and reasoning skills in this exciting event filled with funand intellectual puzzles!.\n \nParticipants will identify logos (University, company, or government organization) and solve puzzles digitally in the shortest possibletime.",
     rules: [
       "Participants must not use any external aids or devices to assist in the identification process.",
       "The decision of the organizers will be final and binding.",
@@ -444,10 +447,10 @@ export const eventsData = [
     team: "Individual",
     fees: "₹ 50 per person",
     contactInfo: ["Aayush Baranawal : 7985534101", "Kritagya Bhagat : 9142197242", "Vinay Yadav : 8765072315 "],
-    location: "To be announced",
-    date: "7th February , 2025",
+    location: "B1-207 , B2-007",
+    date: "06th & 08th February , 2025 at 11:00 AM",
     note: [
-      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates",
+      "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates",
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfRpaXI_dFCKPMX4l1UVrY5Mff0Q_4qOicbQg8zjyOIBQGZiw/viewform",
     rl:"https://drive.google.com/file/d/14jiYOQTds6AGNfqMw44Z9Aprbbq6QtGw/view?usp=drive_link",
@@ -458,7 +461,7 @@ export const eventsData = [
     name: "Digi Art",
     description: 
       
-      "Participants will create original designs based on the disclosed theme during the session.\nLogo Design involves crafting unique logos using tools like Canva, Photoshop, or Figma within 1 hour, followed by 15 minutes for submission in PNG, JPEG, or SVG format with a brief description. \n UI/UX Design focuses on creating user-friendly interfaces using Figma or Adobe XD within 2 hours with 15 minutes for submission as a prototype or PDF. The emphasis is on simplicity, creativity, and relevance, with all work completed during the event.",
+      "Participants will create original designs based on the disclosed theme during the session.\n \nLogo Design involves crafting unique logos using tools like Canva, Photoshop, or Figma within 1 hour, followed by 15 minutes for submission in PNG, JPEG, or SVG format with a brief description.\n \n UI/UX Design focuses on creating user-friendly interfaces using Figma or Adobe XD within 2 hours with 15 minutes for submission as a prototype or PDF. The emphasis is on simplicity, creativity, and relevance, with all work completed during the event.",
     
     
     rules: [
@@ -478,33 +481,33 @@ export const eventsData = [
     prizes: ["Prize Money and Exciting Rewards for the winners.",
       "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
       "Participation Certificates from IEEE and CIIE for all participants.",],
-    team: "Team of MAX 2 or Individual for UI/UX : : Individual participation in Logo Design",
-    fees: "Individual fees for Logo Design : ₹50 : : Individual fees for UI/UX : ₹100 : : Team of 2 fees : ₹150" ,
+    team: " UI/UX - Team of MAX 2 members\n Logo Design - Individual ",
+    fees: "UI/UX -  ₹100(Individual) &  ₹150(Team)\n Logo Design - ₹50 ",
     contactInfo: ["Divyanshi Pandey : 9455277431 ", "Anshuma Yadav : 9369885065 ","Angad Singh : 8303449400"],
-    location: "To Be Announced",
-    date: "8th February , 2025",
+    location: "B2- 006 , B2 - 004",
+    date: "8th February , 2025 at 1:00 PM",
     note: ["Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLScFh-nNrVyHZ6z3qydVIDa7COxgy-z-Q9RkdO_4KGD1aB351w/viewform",
-    rl:"https://drive.google.com/file/d/1X3QWT64a2cNBOMS_o4hqCZ4wP4j9eWy0/view?usp=drive_link",
+    rl:"https://drive.google.com/file/d/109J6tUjOQww02SiwsLDTdd4zNVqwcnIe/view?usp=sharing",
   },
   {
     id: 14,
     image: LaserLightShow,
     name: "Laser Light Show",
     description:
-      "Step into a world of magic and rhythm with the Laser Light Extravaganza, the highlight of TechFest! This immersive event combines dazzling laser displays with pulsating music and energetic dance performances, creating an unforgettable experience. To add a spark of romance, special couple events bring an enchanting charm to the festivities.",
-    rules: [],
-    prizes: ["Participation Certificates by IEEE and CIIE for all participants."],
-    team: "Single Entry and Couple Entry ",
-    fees: [" Single Entry : ₹ 100 : : "," Couple Entry : ₹150 "],
-    contactInfo: ["Vedant Dashmukhe : 7447667935"],
-    location: "Student Plaza, DYPCOE, Akurdi",
-    date: "20 February 2023 (10 am Onwards)",
-    note: [
-      "Crossing every hurdle is compulsory",
-      "The organizers reserve the rights to change the above format, if necessary.",
-      "Teams can also register at the venue on the day of the event at least an hour prior to the event.",
-    ],
+      "Step into a world of magic and rhythm with the Laser Light Extravaganza, the highlight of TechFest!\n \nThis immersive event combines dazzling laser displays with pulsating music and energetic dance performances, creating an unforgettable experience.\n \nTo add a spark of romance, special couple events bring an enchanting charm to the festivities.",
+    // rules: [],
+    // prizes: ["Participation Certificates by IEEE and CIIE for all participants."],
+    team: "Individual Entry \nCouple Entry \nGroup Entry (5 members) ",
+    fees: [" Single Entry : ₹ 80/- \n  Couple Entry : ₹150/- \n  Group Entry : ₹400/- "],
+    contactInfo: ["Kshitij : 9455813610", "Devesh Punjabi : 9171658780", "Shiv Mangalam Dubey : 9151702366 "],
+    location: "Mini Audi",
+    date: "06th February , 2025 at ",
+    // note: [
+    //   "Crossing every hurdle is compulsory",
+    //   "The organizers reserve the rights to change the above format, if necessary.",
+    //   "Teams can also register at the venue on the day of the event at least an hour prior to the event.",
+    // ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSf_keYfwx-wJqQaVi-ZnADoJ27mXgKYN6uPoFewCf_qH9EmUQ/viewform",
     rl:"https://drive.google.com/file/d/1U07feQQWlbbUCM4B-LC3TVzY1nFgBr9f/view?usp=drive_link",
   },
@@ -526,8 +529,8 @@ export const eventsData = [
     team: "Individual",
     fees: "₹ 50 per person",
     contactInfo: ["Aadi Chandra : 9335402749", "Sabhyata Singh : 6394535041 ", "Rashi Malik : 8707340147 "],
-    location: "To be announced",
-    date: "6th february , 2025",
+    location: "Admin Ground ",
+    date: "06th february , 2025 at 11:00 AM",
     note: ["Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSe_kaVqe0ANap8yIQtpR1nVVGcEJdoHBzM3DGnaOdCH3mMGZg/viewform",
     rl:"https://drive.google.com/file/d/14NZT9kiOsJikueIyMm8_AfSThG30UWFK/view?usp=drive_link",
@@ -538,7 +541,7 @@ export const eventsData = [
     image: BuddhiShamta,
     name: "Buddhi क्षमता ",
     description:
-      "Memory Marathon is a fun event that tests students’ memory skills through four  exciting levels. First,participants match card pairs by remembering their  positions. Second,they pair bottles with their correct colors. The third level involves memorizing and recreating object patterns. Finally, participants identify objects out of options by their names and colors.",
+      "Memory Marathon is a fun event that tests students’ memory skills through four  exciting levels.\n \nFirst , participants match card pairs by remembering their  positions. Second,they pair bottles with their correct colors.\n \nThe third level involves memorizing and recreating object patterns.\n \nFinally, participants identify objects out of options by their names and colors.",
     rules: [
       "Eligibility : Open to all schools.",
       "Fair Play: Participants must complete all tasks independently without external help.",
@@ -555,10 +558,10 @@ export const eventsData = [
     team: "Individual ",
     fees: "₹50 per person",
     contactInfo: ["Nandini Verma : 7773909160" , "Aradhya Gupta : 7355344502 ", " Dhruv Pathak : 8604440669 "],
-    location: "To be announced",
-    date: "06 February 2025 (11 am Onwards)",
+    location: "B1-First Floor",
+    date: "06 February 2025 at 11:00 AM",
     note: [
-      "Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates."
+      "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates."
     ],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdedAQ02ik7j8hYl4uv0Vo-v_hVVpfxNmzIJhufCofE1Wh2PA/viewform",
     rl:"https://drive.google.com/file/d/1iap9YL9IqaBix_tg5UJ7hSExzS8iEwnM/view?usp=drive_link",
@@ -568,7 +571,7 @@ export const eventsData = [
     image: BoatRace,
     name: "Boat Race",
     description:
-      " Join us for an exhilarating RC Boat Race Challenge, where enthusiasts and  competitors will showcase their skills in navigating radio-controlled boats through a watercourse filled with obstacles. Participants will race their RC boats in a specially designed water body, maneuvering through twists, turns, and barriers in the shortest possible time to claim victory.",
+      " Join us for an exhilarating RC Boat Race Challenge, where enthusiasts and  competitors will showcase their skills in navigating radio-controlled boats through a watercourse filled with obstacles.\n \nParticipants will race their RC boats in a specially designed water body, maneuvering through twists, turns, and barriers in the shortest possible time to claim victory.",
     rules: [
       "Knockout matches between two boats",
       "Bring your own boat or use a provided one",
@@ -577,16 +580,16 @@ export const eventsData = [
 
       
     ],
-    prizes: ["RewardsPrize Money and Exciting Rewards for the winners.",
+    prizes: ["Prize Money and Exciting Rewards for the winners.",
       "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
       "Participation Certificates from IEEE and CIIE for all participants.",
     ],
-    team: "2 Members Team",
+    team: "Team of 2 Members",
     fees: "₹100 per team",
     contactInfo: ["Agrim Mishra : 9369236427", "Shubham Mishra : 8081766693" , "Samarth Kumar : 8081880868"],
-    location: "To be announced",
-    date: "06 February , 2025",
-    note: ["Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates."],
+    location: "Open Arena",
+    date: "07th February , 2025 at 11:00 AM",
+    note: ["Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfwxl8_YrrmendHIFHib1_n-cciBQSivonOKAzjuRQiB3V5Fw/viewform",
     rl:"https://drive.google.com/file/d/1WInAxxB1XUrUrgbB_xbMmrRPUXTBw51w/view?usp=drive_link",
   },
@@ -595,7 +598,7 @@ export const eventsData = [
     image: ReasoningRumble,
     name: "Reasoning Rumble",
     description:
-      " Get ready for Reasoning Rumble, a thrilling challenge of reasoning, aptitude, and logic! Test your skills with puzzles like dice face challenges, distance calculations, ratios, and pattern recognition, all designed to push your mental agility to the limits. Perfect for puzzle enthusiasts and analytical minds, this event is your chance to shine, have fun, and compete for the title of Ultimate Logic Champion!",
+      " Get ready for Reasoning Rumble, a thrilling challenge of reasoning, aptitude, and logic!\n \nTest your skills with puzzles like dice face challenges, distance calculations, ratios, and pattern recognition, all designed to push your mental agility to the limits.\n \nPerfect for puzzle enthusiasts and analytical minds, this event is your chance to shine, have fun, and compete for the title of Ultimate Logic Champion!",
     rules: [
       "Participants must complete all tasks independently without external help.",
       "Each level will have a strict time limit that must be followed.",
@@ -603,19 +606,93 @@ export const eventsData = [
       "Any form of misbehaviour or misconduct will lead to immediate disqualification.",
       "The use of electronic devices, including calculators and mobile phones, is strictly prohibited during the event."
     ],
-    prizes: ["1st: Mivi Duopods", "2nd: Laptop Bag"],
-    team: "2 Members Team",
-    fees: "100 Rs",
+    prizes: ["RewardsPrize Money and Exciting Rewards for the winners.",
+      "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
+      "Participation Certificates from IEEE and CIIE for all participants.",
+    ],
+    team: "Individual",
+    fees: " ₹ 50 /- ",
     contactInfo: [
       "Priyanshi Srivastava : 8687968902",
       "Aditya Tiwari : 8303164785",
       "Shiva Sharma : 8273729965",
     ],
-    location: "To be announced",
-    date: "To be announced",
-    note: ["Hardcopy certificates will be awarded only to the winners. All other participants will receive softcopy certificates."],
+    location: "B1 - Second Floor for School Students\n \nB2 - Second Floor for University Students",
+    date: "06th February , 2025 at 11:00 AM",
+    note: ["Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates."],
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdCAs1yLabxE50hed9v7QGFYuwuDABt4AhGpEBlRpzAzCnCbw/viewform",
     rl:"https://drive.google.com/file/d/1sxtT63J8qI9b24nYQRHAKIROract7eGJ/view?usp=drive_link",
+  },
+  {
+    id: 19,
+    image: Bug,
+    name: "Bug Hunting",
+    description:
+      "A Java & Python Debugging Challenge :  \n \n Gear up for the ultimate test of your debugging skills in this exciting competition! , participants will tackle errors in Java and Python code.\n \n From identifying bugs in short snippets to solving real-world coding challenges, this 2-3 hour event will push your problem-solving and optimization skills to the limit. \n \nCompete against the brightest minds and claim the title of the ultimate Debugging Master!",
+    rules: [
+      "Participants must complete all tasks independently without external help.",
+      "Each level will have a strict time limit that must be followed.",
+      "All participants must report to the venue at least 30 minutes before the event starts; latecomers will be disqualified.",
+      "Any form of misbehaviour or misconduct will lead to immediate disqualification.",
+      "The use of electronic devices, including calculators and mobile phones, is strictly prohibited during the event."
+    ],
+    prizes: ["To be revealed soon!"],
+    team: "Solo / Duo",
+    fees: "₹ 50/-",
+    contactInfo: [
+      "Harshita Singh : ",
+      
+    ],
+    location: "B2 - 008",
+    date: "08th February , 2025",
+    note: ["Hardcopy certificates will be awarded only to the winners.\n \n All other participants will receive softcopy certificates."],
+    link: "",
+    rl:"",
+  },
+  {
+    id: 20,
+    image: AI,
+    name: "AI Workshop (Generative AI) / Power Bi Workshop",
+    description:
+      "AI Workshop (Generative AI) : Learn the fundamentals of Generative AI, including neural networks and applications in content creation and design.\n \nPower BI Workshop : Discover how to use Power BI for data visualization, analysis, and creating interactive dashboards.",
+    rules: [
+      "To be announced !!"
+    ],
+    prizes: ["To be revealed soon!"],
+    team: "Individual",
+    fees: "To be revealed soon!",
+    contactInfo: [
+      "Harshita Singh : ",
+      "Devesh Punjabi : 9171658780 ",
+      
+    ],
+    location: "Mini Audi",
+    date: "08th February , 2025",
+    note: ["Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates."],
+    link: "",
+    rl:"",
+  },
+  {
+    id: 21,
+    image: Network,
+    name: "Workshop on Configuring the Network Layers",
+    description:
+      "This workshop provides an in-depth understanding of the structure and functionality of network layers. \n \nParticipants will learn about network architecture, protocols, IP addressing, subnetting, and security configurations.\n \n The session is designed to enhance knowledge and understanding of how network layers operate to facilitate seamless communication.",
+    rules: [
+     "To be announced !!"
+    ],
+    prizes: ["To be revealed soon!"],
+    team: "Individual",
+    fees: "To be revealed soon!",
+    contactInfo: [
+      "Ayush Krishna : ",
+      
+    ],
+    location: "Mini Audi",
+    date: "07th February , 2025",
+    note: ["Hardcopy certificates will be awarded only to the winners.\n \n All other participants will receive softcopy certificates."],
+    link: "",
+    rl:"",
   },
 
 ];
