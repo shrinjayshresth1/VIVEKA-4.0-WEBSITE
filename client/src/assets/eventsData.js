@@ -416,7 +416,7 @@ export const eventsData = [
       "Participation Certificates from IEEE and CIIE for all participants.",
     ],
     team: "Team of MAX 4 members with same institution",
-    fees: "₹ 120 per person",
+    fees: "₹ 120 per team",
     contactInfo: ["Agrim Mishra : 9369236427", "Abhinav Pratap Singh : ", "Isha Singh : 9305139337"],
     location: "B5 - Ground Floor",
     date: "08th February , 2025 at 11:00 AM",
