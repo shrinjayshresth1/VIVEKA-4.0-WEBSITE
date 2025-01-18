@@ -11,9 +11,23 @@
   /* top: 3%; */
 }
 
-.scrolledHeader {
+/* .scrolledHeader { 
   width: 100%;
-  height: 15%;
+  height: 20%;
+  position: fixed;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: rgba(0, 0, 0, 0.932);
+  padding: 2rem;
+  color: #fff;
+  z-index: 100;
+  border-radius: 15px;
+  transition: all 0.4s ease-in-out;
+} */
+.scrolledHeader { 
+  width: 100%;
+  height: 13%;
   position: fixed;
   top: 3%;
   left: 50%;
@@ -29,6 +43,7 @@
 .elements {
   display: flex;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .logobox {
@@ -39,7 +54,8 @@
 }
 
 .logo {
-  width: 25%;
+  width: 16%;
+  margin-top: 0;
 }
 
 .hamburger {
@@ -53,6 +69,7 @@
 .navbox {
   display: flex;
   align-items: center;
+ 
 }
 
 .nav {
@@ -229,5 +246,8 @@
     padding: 1.3rem 2rem;
     text-align: center;
     transition: all 0.8s;
+  }
+  .scrolledHeader{
+    height: 8%;
   }
 }
