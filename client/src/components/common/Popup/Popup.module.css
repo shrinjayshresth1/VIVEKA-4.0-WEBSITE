@@ -15,6 +15,7 @@
 .card {
   width: 50vw;
   height: 50vh;
+  padding-bottom: 3rem;
   background: #19212e;
   display: flex;
   place-content: center;

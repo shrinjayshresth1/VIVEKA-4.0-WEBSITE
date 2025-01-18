@@ -15,7 +15,7 @@ const ksgurl = "https://www.linkedin.com/in/kushagra-chaturvedi/";
 
 const Footer = () => {
   return (
-    <div className={classes.footer_outer}>
+    <div className={classes.footer_outer}> 
       <div className={classes.footer}>
         <div className={classes.footer_first}>
           <div className={classes.footer_sambhav_image_div}>
@@ -84,6 +84,7 @@ const Footer = () => {
           
           
         </div>
+        
         <div className={classes.footer_third}>
           <h2 className={classes.footer_menu_heading}>Contact Us</h2>
           <div className={classes.footer_contact}>
