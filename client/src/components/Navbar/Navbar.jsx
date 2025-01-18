@@ -35,14 +35,15 @@ const Navbar = () => {
             <li className={classes.navLink}>
               <Drop
                 activeClass={classes.active}
-                to="home"
+                to="/"
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                Home
+                <Link to={"/"}>Home</Link>
+                
               </Drop>
             </li>
             <Link to="/events">
@@ -63,53 +64,56 @@ const Navbar = () => {
             <li className={classes.navLink}>
               <Drop
                 activeClass={classes.active}
-                to="organizers"
+                to="/organizers"
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
-              >
-                Organizers
+              ><Link to={'/organizers'}>Organizers</Link>
+                
               </Drop>
             </li>
             <li className={classes.navLink}>
               <Drop
                 activeClass={classes.active}
-                to="about"
+                to="/about"
                 spy={true}
                 smooth={true}
                 offset={-120}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                About
+                <Link to={'/about'}>About</Link>
+                
               </Drop>
             </li>
             
             <li className={classes.navLink}>
               <Drop
                 activeClass={classes.active}
-                to="leaderboard"
+                to="/leaderboard"
                 spy={true}
                 smooth={true}
                 offset={-120}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                Leaderboard
+                <Link to={'/leaderboard'}>Leaderboard</Link>
+                
               </Drop>
             </li>
             <li className={classes.navLink}>
               <Drop
                 activeClass={classes.active}
-                to="contact"
+                to="/contact"
                 spy={true}
                 smooth={true}
                 offset={-120}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
+                <Link to={'/contact'}>Contact</Link>
                 Contact
               </Drop>
             </li>
@@ -134,28 +138,30 @@ const Navbar = () => {
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
-                to="home"
+                to="/"
                 spy={true}
                 smooth={true}
                 offset={-120}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                Home
+                <Link to={'/'}>Home</Link>
+                
               </Drop>
             </li>
             <li>
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
-                to="about"
+                to="/about"
                 spy={true}
                 smooth={true}
                 offset={-120}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                About
+                <Link to={'/about'}>About</Link>
+                
               </Drop>
             </li>
             <Link to="/events">
@@ -177,42 +183,45 @@ const Navbar = () => {
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
-                to="organizers"
+                to="/organizers"
                 spy={true}
                 smooth={true}
                 offset={-120}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                Organizers
+                <Link to={'/organizers'}>Organizers</Link>
+                
               </Drop>
             </li>
             <li>
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
-                to="leaderboard"
+                to="/leaderboard"
                 spy={true}
                 smooth={true}
                 offset={-120}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                Leaderboard
+                <Link to={'/leaderboard'}>Leaderboard</Link>
+                
               </Drop>
             </li>
             <li>
               <Drop
                 onClick={() => setMobile(!mobile)}
                 activeClass={classes.active}
-                to="contact"
+                to="/contact"
                 spy={true}
                 smooth={true}
                 offset={-120}
                 duration={600}
                 style={{ color: "white", textDecoration: "none" }}
               >
-                Contact
+                <Link to={'/contact'}>Contact</Link>
+                
               </Drop>
             </li>
           </ul>
