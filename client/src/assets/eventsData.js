@@ -158,7 +158,7 @@ export const eventsData = [
       "Ansh Kumar Singh : ",
     ],
     location: "B2 - Computer Labs",
-    date: "08th February , 2025 at 11:00 AM",
+    date: "06th February , 2025 at 11:00 AM (For School Participant) \n 08th February , 2025 at 11:00 AM (For University / College Participant)",
     note: [
       "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates.",
     ],
@@ -192,7 +192,7 @@ export const eventsData = [
       "Aditya Gupta : 8303420320 ",
     ],
     location: "B2 - 305",
-    date: "06th February, 2025 at 11:00 AM",
+    date: "06th February , 2025 at 11:00 AM (For School Participant) \n 08th February , 2025 at 11:00 AM (For University / College Participant)",
     note: [
       "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates.",
     ],
@@ -232,10 +232,10 @@ export const eventsData = [
     contactInfo: [
       "Kushagra Chaturvedi : 8882304190",
       "Nirbhay Singh : 7318336266",
-      "Shiv Mangalam Dubey : 9151702366",
+      "Shiv Manglam Dubey : 9151702366",
     ],
     location: "BBC Ground",
-    date: "06th & 07th February , 2025 at 11:00 AM",
+    date: "06th February , 2025 at 11:00 AM (For School Participant) \n 07th February , 2025 at 11:00 AM (For University / College Participant)",
     note: [
       "Hardcopy certificates will be awarded only to the winners.\n \nMember can bring their own bot as well as can you use bots provided by University." 
       
@@ -281,7 +281,7 @@ export const eventsData = [
       "Shreshth Sharma : 8840414915 ",
     ],
     location: "BBC Ground",
-    date: "06th & 07th February , 2025 at 11:00 AM",
+    date: "06th February , 2025 at 11:00 AM (For School Participant) \n 07th February , 2025 at 11:00 AM (For University / College Participant)",
     note: [
       "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates.",
       
@@ -448,7 +448,7 @@ export const eventsData = [
     fees: "₹ 50 per person",
     contactInfo: ["Aayush Baranawal : 7985534101", "Kritagya Bhagat : 9142197242", "Vinay Yadav : 8765072315 "],
     location: "B1-207 , B2-007",
-    date: "06th & 08th February , 2025 at 11:00 AM",
+    date: "06th February , 2025 at 11:00 AM (For School Participant) \n 08th February , 2025 at 11:00 AM (For University / College Participant)",
     note: [
       "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates",
     ],
