@@ -66,7 +66,7 @@ const Organizers = () => {
     { name: "Aadya Sharma", course: "BBA.LLB (HONS)", year: "5TH YEAR", image: Aadya, linkedin: "https://www.linkedin.com/in/aadya-sharma-130a27218/" },
     { name: "Atam Prakash Bajpai", course: "B.TECH (ECE)", year: "4TH YEAR", image: Atam, linkedin: "https://www.linkedin.com/in/atam-prakash-bajpai-67441a224/" },
     { name: "Ayushman Singh", course: "B.TECH (ECE)", year: "4TH YEAR", image: Ayushman, linkedin: "https://www.linkedin.com/in/ayushman-singh-413240195" },
-    
+    ,
   ];
 
   const studentCon = [
