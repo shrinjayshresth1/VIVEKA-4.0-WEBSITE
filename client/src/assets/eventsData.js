@@ -502,7 +502,7 @@ export const eventsData = [
     fees: [" Single Entry : ₹ 80/- \n  Couple Entry : ₹150/- \n  Group Entry : ₹400/- "],
     contactInfo: ["Kshitij : 9455813610", "Devesh Punjabi : 9171658780", "Shiv Mangalam Dubey : 9151702366 "],
     location: "Mini Audi",
-    date: "06th February , 2025 at ",
+    date: "06th February , 2025 at 12:00 PM ",
     // note: [
     //   "Crossing every hurdle is compulsory",
     //   "The organizers reserve the rights to change the above format, if necessary.",
