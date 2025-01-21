@@ -158,7 +158,7 @@ export const eventsData = [
       "Ansh Kumar Singh : ",
     ],
     location: "B2 - Computer Labs",
-    date: "06th February , 2025 at 11:00 AM (For School Participant) \n 08th February , 2025 at 11:00 AM (For University / College Participant)",
+    date: "08th February , 2025 at 11:00 AM",
     note: [
       "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates.",
     ],
@@ -397,7 +397,7 @@ export const eventsData = [
   {
     id: 11,
     image: Structomania,
-    name: "Structomania",
+    name: "Structromania",
     description: [
       "Step into Structromania, a unique competition where teams design and build wooden structures using limited materials like sticks, threads, and glue.\n \nTest your innovation, teamwork, and problem-solving as you create a structure that holds the maximum weight before breaking.",
     ],
@@ -423,7 +423,7 @@ export const eventsData = [
     note: [
      "Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates",
     ],
-    link: "",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSd9TCv_WuVZr7D-cFT_kkTKG0PqQ20z4pMSQt6xIRepvbIWog/closedform",
     rl:"https://drive.google.com/file/d/1KaBrez1rTAHHcjOkcUO68Fd8oQVMQ6_K/view?usp=drive_link",
   },
   {
@@ -647,7 +647,7 @@ export const eventsData = [
     date: "08th February , 2025",
     note: ["Hardcopy certificates will be awarded only to the winners.\n \n All other participants will receive softcopy certificates."],
     link: "",
-    rl:"",
+    rl:"https://drive.google.com/file/d/1SLNssRZ7Ta85yqLFYmoL-MGgZnmrvZsW/view?usp=drive_link",
   },
   {
     id: 20,
