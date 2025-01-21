@@ -6,7 +6,10 @@
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@relume_io/relume-tailwind": "^1.2.0",
+    "@relume_io/relume-ui": "^1.2.0",
     "@swup/overlay-theme": "^1.1.1",
+    "@tailwindcss/typography": "^0.5.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-ga": "^3.3.1",
@@ -16,7 +19,8 @@
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.9",
     "swiper": "^11.2.0",
-    "swup": "^3.0.4"
+    "swup": "^3.0.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "scripts": {
     "start": "react-scripts start",

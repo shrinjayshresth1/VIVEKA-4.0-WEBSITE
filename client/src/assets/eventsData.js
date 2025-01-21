@@ -397,7 +397,7 @@ export const eventsData = [
   {
     id: 11,
     image: Structomania,
-    name: "Structomania",
+    name: "Structromania",
     description: [
       "Step into Structromania, a unique competition where teams design and build wooden structures using limited materials like sticks, threads, and glue.\n \nTest your innovation, teamwork, and problem-solving as you create a structure that holds the maximum weight before breaking.",
     ],
@@ -417,7 +417,7 @@ export const eventsData = [
     ],
     team: "Team of MAX 4 members with same institution",
     fees: "₹ 120 per team",
-    contactInfo: ["Agrim Mishra : 9369236427", "Abhinav Pratap Singh : ", "Isha Singh : 9305139337"],
+    contactInfo: ["Agrim Mishra : 9369236427", "Abhinav Pratap Singh : 6386787023 ", "Isha Singh : 9305139337"],
     location: "B5 - Ground Floor",
     date: "08th February , 2025 at 11:00 AM",
     note: [
@@ -481,7 +481,7 @@ export const eventsData = [
     prizes: ["Prize Money and Exciting Rewards for the winners.",
       "Winners will be enlisted in the Hall of Fame of SRMU's Innovation Hub.",
       "Participation Certificates from IEEE and CIIE for all participants.",],
-    team: " UI/UX - Team of MAX 2 members\n Logo Design - Individual ",
+    team: " UI/UX - Individual or Team of MAX 2 members\n Logo Design - Individual ",
     fees: "UI/UX -  ₹100(Individual) &  ₹150(Team)\n Logo Design - ₹50 ",
     contactInfo: ["Divyanshi Pandey : 9455277431 ", "Anshuma Yadav : 9369885065 ","Angad Singh : 8303449400"],
     location: "B2- 006 , B2 - 004",
@@ -628,7 +628,8 @@ export const eventsData = [
     image: Bug,
     name: "Bug Hunting",
     description:
-      "A Java & Python Debugging Challenge :  \n \n Gear up for the ultimate test of your debugging skills in this exciting competition! , participants will tackle errors in Java and Python code.\n \n From identifying bugs in short snippets to solving real-world coding challenges, this 2-3 hour event will push your problem-solving and optimization skills to the limit. \n \nCompete against the brightest minds and claim the title of the ultimate Debugging Master!",
+    "Join 'Hunt the Bugs, Master the Code', an exciting bug-hunting challenge where you’ll showcase your cybersecurity skills! Explore real-world scenarios, identify vulnerabilities in systems and applications, and tackle hands-on tasks using tools like Burp Suite, OWASP ZAP, and Wireshark. Whether you’re a budding ethical hacker or a pro, this is your chance to test and enhance your technical expertise!",
+
     rules: [
       "Participants must complete all tasks independently without external help.",
       "Each level will have a strict time limit that must be followed.",
@@ -638,9 +639,9 @@ export const eventsData = [
     ],
     prizes: ["To be revealed soon!"],
     team: "Solo / Duo",
-    fees: "₹ 50/-",
+    fees: "₹ 100/-(Solo/Duo)",
     contactInfo: [
-      "Harshita Singh : ",
+      "Harshita Singh : 9336508115",
       
     ],
     location: "B2 - 008",
