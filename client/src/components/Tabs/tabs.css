@@ -1,4 +1,4 @@
-/* Main Container Styles */
+
 .schedule-container {
     min-height: 100vh;
     background-color: transparent;
@@ -16,7 +16,7 @@
     margin: 0 auto;
   }
   
-  /* Header Styles */
+  
   .schedule-header {
     text-align: center;
     margin-bottom: 3rem;
@@ -41,7 +41,7 @@
     margin: 1rem auto 0;
   }
   
-  /* Tab Styles */
+  
   .tabs-container {
     display: flex;
     flex-wrap: wrap;
@@ -86,7 +86,7 @@
     opacity: 0.9;
   }
   
-  /* Event Card Styles */
+  
   .events-container {
     display: flex;
     flex-direction: column;
