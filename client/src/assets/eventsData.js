@@ -648,7 +648,7 @@ export const eventsData = [
     date: "08th February , 2025",
     note: ["Hardcopy certificates will be awarded only to the winners.\n \n All other participants will receive softcopy certificates."],
     link: "",
-    rl:"https://drive.google.com/file/d/1SLNssRZ7Ta85yqLFYmoL-MGgZnmrvZsW/view?usp=drive_link",
+    rl:"https://drive.google.com/file/d/1i8mFGgDhTXKeP_xq5Z-0EpncCnpLVXhJ/view?usp=sharing",
   },
   {
     id: 20,
@@ -661,7 +661,7 @@ export const eventsData = [
     ],
     prizes: ["To be revealed soon!"],
     team: "Individual",
-    fees: "To be revealed soon!",
+    fees: "₹ 50/-",
     contactInfo: [
       "Harshita Singh : ",
       "Devesh Punjabi : 9171658780 ",
@@ -672,29 +672,29 @@ export const eventsData = [
     note: ["Hardcopy certificates will be awarded only to the winners.\n \nAll other participants will receive softcopy certificates."],
     link: "",
     rl:"",
-  },
-  {
-    id: 21,
-    image: Network,
-    name: "Workshop on Configuring the Network Layers",
-    description:
-      "This workshop provides an in-depth understanding of the structure and functionality of network layers. \n \nParticipants will learn about network architecture, protocols, IP addressing, subnetting, and security configurations.\n \n The session is designed to enhance knowledge and understanding of how network layers operate to facilitate seamless communication.",
-    rules: [
-     "To be announced !!"
-    ],
-    prizes: ["To be revealed soon!"],
-    team: "Individual",
-    fees: "To be revealed soon!",
-    contactInfo: [
-      "Ayush Krishna : ",
+  }
+  // {
+  //   id: 21,
+  //   image: Network,
+  //   name: "Workshop on Configuring the Network Layers",
+  //   description:
+  //     "This workshop provides an in-depth understanding of the structure and functionality of network layers. \n \nParticipants will learn about network architecture, protocols, IP addressing, subnetting, and security configurations.\n \n The session is designed to enhance knowledge and understanding of how network layers operate to facilitate seamless communication.",
+  //   rules: [
+  //    "To be announced !!"
+  //   ],
+  //   prizes: ["To be revealed soon!"],
+  //   team: "Individual",
+  //   fees: "To be revealed soon!",
+  //   contactInfo: [
+  //     "Ayush Krishna : ",
       
-    ],
-    location: "Mini Audi",
-    date: "07th February , 2025",
-    note: ["Hardcopy certificates will be awarded only to the winners.\n \n All other participants will receive softcopy certificates."],
-    link: "",
-    rl:"",
-  },
+  //   ],
+  //   location: "Mini Audi",
+  //   date: "07th February , 2025",
+  //   note: ["Hardcopy certificates will be awarded only to the winners.\n \n All other participants will receive softcopy certificates."],
+  //   link: "",
+  //   rl:"",
+  // },
 
 ];
 /*{/*
