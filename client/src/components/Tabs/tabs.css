@@ -1,0 +1,161 @@
+/* Main Container Styles */
+.schedule-container {
+    min-height: 100vh;
+    background-color: transparent;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .schedule-container {
+      padding: 2rem;
+    }
+  }
+  
+  .schedule-wrapper {
+    max-width: 64rem;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  .schedule-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .schedule-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.75rem;
+  }
+  
+  .schedule-subtitle {
+    color: #6b7280;
+    font-size: 1.125rem;
+  }
+  
+  .schedule-divider {
+    width: 6rem;
+    height: 0.25rem;
+    background-color: #fb923c;
+    margin: 1rem auto 0;
+  }
+  
+  /* Tab Styles */
+  .tabs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .tabs-container {
+      flex-wrap: nowrap;
+    }
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 1rem 0;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    background-color: #fb923c;
+    color: white;
+    box-shadow: 0 10px 15px -3px rgba(251, 146, 60, 0.3);
+    transform: scale(1.05);
+  }
+  
+  .tab-button:not(.active) {
+    background-color: #1a237e;
+    color: white;
+  }
+  
+  .tab-button:not(.active):hover {
+    opacity: 0.9;
+  }
+  
+  /* Event Card Styles */
+  .events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .event-card {
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .event-card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-content {
+    padding: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+  
+  .event-time {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    width: 8rem;
+    flex-shrink: 0;
+  }
+  
+  .event-details {
+    flex: 1;
+  }
+  
+  .event-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .event-icon {
+    padding: 0.75rem;
+    background-color: rgba(26, 35, 126, 0.1);
+    border-radius: 0.5rem;
+    color: #1a237e;
+  }
+  
+  .event-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #1f2937;
+  }
+  
+  .event-description {
+    color: #4b5563;
+    margin-bottom: 0.75rem;
+  }
+  
+  .event-location {
+    display: flex;
+    align-items: center;
+    color: #6b7280;
+    font-weight: 500;
+  }
+  
+  .location-icon {
+    margin-right: 0.5rem;
+  }

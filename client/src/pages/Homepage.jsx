@@ -4,6 +4,7 @@ import Contact from "../components/Contact/Contact";
 import Hero from "../components/Hero/Hero";
 import ReactGA from "react-ga";
 import Gallery from "../components/Gallery/Gallery.jsx";
+import Tabs from "../components/Tabs/Tabs.jsx"
 
 
 const Homepage = () => {
@@ -16,6 +17,7 @@ const Homepage = () => {
       <Hero />
       
       <About />
+      <Tabs />
       <Gallery />
       <Contact />
     </>
